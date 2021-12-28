@@ -1,0 +1,2658 @@
+DATA/
+├── actual_data
+│   ├── testing_groundtruth.tif
+│   ├── testing.tif
+│   ├── training_groundtruth.tif
+│   └── training.tif
+├── augmented
+│   ├── images
+│   │   ├── 00_train-0000.png
+│   │   ├── 00_train-0001.png
+│   │   ├── 00_train-0002.png
+│   │   ├── 00_train-0003.png
+│   │   ├── 00_train-0004.png
+│   │   ├── 00_train-0005.png
+│   │   ├── 00_train-0006.png
+│   │   ├── 00_train-0007.png
+│   │   ├── 00_train-0008.png
+│   │   ├── 00_train-0009.png
+│   │   ├── 00_train-0010.png
+│   │   ├── 00_train-0011.png
+│   │   ├── 00_train-0012.png
+│   │   ├── 00_train-0013.png
+│   │   ├── 00_train-0014.png
+│   │   ├── 00_train-0015.png
+│   │   ├── 00_train-0016.png
+│   │   ├── 00_train-0017.png
+│   │   ├── 00_train-0018.png
+│   │   ├── 00_train-0019.png
+│   │   ├── 00_train-0020.png
+│   │   ├── 00_train-0021.png
+│   │   ├── 00_train-0022.png
+│   │   ├── 00_train-0023.png
+│   │   ├── 00_train-0024.png
+│   │   ├── 00_train-0025.png
+│   │   ├── 00_train-0026.png
+│   │   ├── 00_train-0027.png
+│   │   ├── 00_train-0028.png
+│   │   ├── 00_train-0029.png
+│   │   ├── 00_train-0030.png
+│   │   ├── 00_train-0031.png
+│   │   ├── 00_train-0032.png
+│   │   ├── 00_train-0033.png
+│   │   ├── 00_train-0034.png
+│   │   ├── 00_train-0035.png
+│   │   ├── 00_train-0036.png
+│   │   ├── 00_train-0037.png
+│   │   ├── 00_train-0038.png
+│   │   ├── 00_train-0039.png
+│   │   ├── 00_train-0040.png
+│   │   ├── 00_train-0041.png
+│   │   ├── 00_train-0042.png
+│   │   ├── 00_train-0043.png
+│   │   ├── 00_train-0044.png
+│   │   ├── 00_train-0045.png
+│   │   ├── 00_train-0046.png
+│   │   ├── 00_train-0047.png
+│   │   ├── 00_train-0048.png
+│   │   ├── 00_train-0049.png
+│   │   ├── 00_train-0050.png
+│   │   ├── 00_train-0051.png
+│   │   ├── 00_train-0052.png
+│   │   ├── 00_train-0053.png
+│   │   ├── 00_train-0054.png
+│   │   ├── 00_train-0055.png
+│   │   ├── 00_train-0056.png
+│   │   ├── 00_train-0057.png
+│   │   ├── 00_train-0058.png
+│   │   ├── 00_train-0059.png
+│   │   ├── 00_train-0060.png
+│   │   ├── 00_train-0061.png
+│   │   ├── 00_train-0062.png
+│   │   ├── 00_train-0063.png
+│   │   ├── 00_train-0064.png
+│   │   ├── 00_train-0065.png
+│   │   ├── 00_train-0066.png
+│   │   ├── 00_train-0067.png
+│   │   ├── 00_train-0068.png
+│   │   ├── 00_train-0069.png
+│   │   ├── 00_train-0070.png
+│   │   ├── 00_train-0071.png
+│   │   ├── 00_train-0072.png
+│   │   ├── 00_train-0073.png
+│   │   ├── 00_train-0074.png
+│   │   ├── 00_train-0075.png
+│   │   ├── 00_train-0076.png
+│   │   ├── 00_train-0077.png
+│   │   ├── 00_train-0078.png
+│   │   ├── 00_train-0079.png
+│   │   ├── 00_train-0080.png
+│   │   ├── 00_train-0081.png
+│   │   ├── 00_train-0082.png
+│   │   ├── 00_train-0083.png
+│   │   ├── 00_train-0084.png
+│   │   ├── 00_train-0085.png
+│   │   ├── 00_train-0086.png
+│   │   ├── 00_train-0087.png
+│   │   ├── 00_train-0088.png
+│   │   ├── 00_train-0089.png
+│   │   ├── 00_train-0090.png
+│   │   ├── 00_train-0091.png
+│   │   ├── 00_train-0092.png
+│   │   ├── 00_train-0093.png
+│   │   ├── 00_train-0094.png
+│   │   ├── 00_train-0095.png
+│   │   ├── 00_train-0096.png
+│   │   ├── 00_train-0097.png
+│   │   ├── 00_train-0098.png
+│   │   ├── 00_train-0099.png
+│   │   ├── 00_train-0100.png
+│   │   ├── 00_train-0101.png
+│   │   ├── 00_train-0102.png
+│   │   ├── 00_train-0103.png
+│   │   ├── 00_train-0104.png
+│   │   ├── 00_train-0105.png
+│   │   ├── 00_train-0106.png
+│   │   ├── 00_train-0107.png
+│   │   ├── 00_train-0108.png
+│   │   ├── 00_train-0109.png
+│   │   ├── 00_train-0110.png
+│   │   ├── 00_train-0111.png
+│   │   ├── 00_train-0112.png
+│   │   ├── 00_train-0113.png
+│   │   ├── 00_train-0114.png
+│   │   ├── 00_train-0115.png
+│   │   ├── 00_train-0116.png
+│   │   ├── 00_train-0117.png
+│   │   ├── 00_train-0118.png
+│   │   ├── 00_train-0119.png
+│   │   ├── 00_train-0120.png
+│   │   ├── 00_train-0121.png
+│   │   ├── 00_train-0122.png
+│   │   ├── 00_train-0123.png
+│   │   ├── 00_train-0124.png
+│   │   ├── 00_train-0125.png
+│   │   ├── 00_train-0126.png
+│   │   ├── 00_train-0127.png
+│   │   ├── 00_train-0128.png
+│   │   ├── 00_train-0129.png
+│   │   ├── 00_train-0130.png
+│   │   ├── 00_train-0131.png
+│   │   ├── 00_train-0132.png
+│   │   ├── 00_train-0133.png
+│   │   ├── 00_train-0134.png
+│   │   ├── 00_train-0135.png
+│   │   ├── 00_train-0136.png
+│   │   ├── 00_train-0137.png
+│   │   ├── 00_train-0138.png
+│   │   ├── 00_train-0139.png
+│   │   ├── 00_train-0140.png
+│   │   ├── 00_train-0141.png
+│   │   ├── 00_train-0142.png
+│   │   ├── 00_train-0143.png
+│   │   ├── 00_train-0144.png
+│   │   ├── 00_train-0145.png
+│   │   ├── 00_train-0146.png
+│   │   ├── 00_train-0147.png
+│   │   ├── 00_train-0148.png
+│   │   ├── 00_train-0149.png
+│   │   ├── 00_train-0150.png
+│   │   ├── 00_train-0151.png
+│   │   ├── 00_train-0152.png
+│   │   ├── 00_train-0153.png
+│   │   ├── 00_train-0154.png
+│   │   ├── 00_train-0155.png
+│   │   ├── 00_train-0156.png
+│   │   ├── 00_train-0157.png
+│   │   ├── 00_train-0158.png
+│   │   ├── 00_train-0159.png
+│   │   ├── 00_train-0160.png
+│   │   ├── 00_train-0161.png
+│   │   ├── 00_train-0162.png
+│   │   ├── 00_train-0163.png
+│   │   ├── 00_train-0164.png
+│   │   ├── 01_train-0000.png
+│   │   ├── 01_train-0001.png
+│   │   ├── 01_train-0002.png
+│   │   ├── 01_train-0003.png
+│   │   ├── 01_train-0004.png
+│   │   ├── 01_train-0005.png
+│   │   ├── 01_train-0006.png
+│   │   ├── 01_train-0007.png
+│   │   ├── 01_train-0008.png
+│   │   ├── 01_train-0009.png
+│   │   ├── 01_train-0010.png
+│   │   ├── 01_train-0011.png
+│   │   ├── 01_train-0012.png
+│   │   ├── 01_train-0013.png
+│   │   ├── 01_train-0014.png
+│   │   ├── 01_train-0015.png
+│   │   ├── 01_train-0016.png
+│   │   ├── 01_train-0017.png
+│   │   ├── 01_train-0018.png
+│   │   ├── 01_train-0019.png
+│   │   ├── 01_train-0020.png
+│   │   ├── 01_train-0021.png
+│   │   ├── 01_train-0022.png
+│   │   ├── 01_train-0023.png
+│   │   ├── 01_train-0024.png
+│   │   ├── 01_train-0025.png
+│   │   ├── 01_train-0026.png
+│   │   ├── 01_train-0027.png
+│   │   ├── 01_train-0028.png
+│   │   ├── 01_train-0029.png
+│   │   ├── 01_train-0030.png
+│   │   ├── 01_train-0031.png
+│   │   ├── 01_train-0032.png
+│   │   ├── 01_train-0033.png
+│   │   ├── 01_train-0034.png
+│   │   ├── 01_train-0035.png
+│   │   ├── 01_train-0036.png
+│   │   ├── 01_train-0037.png
+│   │   ├── 01_train-0038.png
+│   │   ├── 01_train-0039.png
+│   │   ├── 01_train-0040.png
+│   │   ├── 01_train-0041.png
+│   │   ├── 01_train-0042.png
+│   │   ├── 01_train-0043.png
+│   │   ├── 01_train-0044.png
+│   │   ├── 01_train-0045.png
+│   │   ├── 01_train-0046.png
+│   │   ├── 01_train-0047.png
+│   │   ├── 01_train-0048.png
+│   │   ├── 01_train-0049.png
+│   │   ├── 01_train-0050.png
+│   │   ├── 01_train-0051.png
+│   │   ├── 01_train-0052.png
+│   │   ├── 01_train-0053.png
+│   │   ├── 01_train-0054.png
+│   │   ├── 01_train-0055.png
+│   │   ├── 01_train-0056.png
+│   │   ├── 01_train-0057.png
+│   │   ├── 01_train-0058.png
+│   │   ├── 01_train-0059.png
+│   │   ├── 01_train-0060.png
+│   │   ├── 01_train-0061.png
+│   │   ├── 01_train-0062.png
+│   │   ├── 01_train-0063.png
+│   │   ├── 01_train-0064.png
+│   │   ├── 01_train-0065.png
+│   │   ├── 01_train-0066.png
+│   │   ├── 01_train-0067.png
+│   │   ├── 01_train-0068.png
+│   │   ├── 01_train-0069.png
+│   │   ├── 01_train-0070.png
+│   │   ├── 01_train-0071.png
+│   │   ├── 01_train-0072.png
+│   │   ├── 01_train-0073.png
+│   │   ├── 01_train-0074.png
+│   │   ├── 01_train-0075.png
+│   │   ├── 01_train-0076.png
+│   │   ├── 01_train-0077.png
+│   │   ├── 01_train-0078.png
+│   │   ├── 01_train-0079.png
+│   │   ├── 01_train-0080.png
+│   │   ├── 01_train-0081.png
+│   │   ├── 01_train-0082.png
+│   │   ├── 01_train-0083.png
+│   │   ├── 01_train-0084.png
+│   │   ├── 01_train-0085.png
+│   │   ├── 01_train-0086.png
+│   │   ├── 01_train-0087.png
+│   │   ├── 01_train-0088.png
+│   │   ├── 01_train-0089.png
+│   │   ├── 01_train-0090.png
+│   │   ├── 01_train-0091.png
+│   │   ├── 01_train-0092.png
+│   │   ├── 01_train-0093.png
+│   │   ├── 01_train-0094.png
+│   │   ├── 01_train-0095.png
+│   │   ├── 01_train-0096.png
+│   │   ├── 01_train-0097.png
+│   │   ├── 01_train-0098.png
+│   │   ├── 01_train-0099.png
+│   │   ├── 01_train-0100.png
+│   │   ├── 01_train-0101.png
+│   │   ├── 01_train-0102.png
+│   │   ├── 01_train-0103.png
+│   │   ├── 01_train-0104.png
+│   │   ├── 01_train-0105.png
+│   │   ├── 01_train-0106.png
+│   │   ├── 01_train-0107.png
+│   │   ├── 01_train-0108.png
+│   │   ├── 01_train-0109.png
+│   │   ├── 01_train-0110.png
+│   │   ├── 01_train-0111.png
+│   │   ├── 01_train-0112.png
+│   │   ├── 01_train-0113.png
+│   │   ├── 01_train-0114.png
+│   │   ├── 01_train-0115.png
+│   │   ├── 01_train-0116.png
+│   │   ├── 01_train-0117.png
+│   │   ├── 01_train-0118.png
+│   │   ├── 01_train-0119.png
+│   │   ├── 01_train-0120.png
+│   │   ├── 01_train-0121.png
+│   │   ├── 01_train-0122.png
+│   │   ├── 01_train-0123.png
+│   │   ├── 01_train-0124.png
+│   │   ├── 01_train-0125.png
+│   │   ├── 01_train-0126.png
+│   │   ├── 01_train-0127.png
+│   │   ├── 01_train-0128.png
+│   │   ├── 01_train-0129.png
+│   │   ├── 01_train-0130.png
+│   │   ├── 01_train-0131.png
+│   │   ├── 01_train-0132.png
+│   │   ├── 01_train-0133.png
+│   │   ├── 01_train-0134.png
+│   │   ├── 01_train-0135.png
+│   │   ├── 01_train-0136.png
+│   │   ├── 01_train-0137.png
+│   │   ├── 01_train-0138.png
+│   │   ├── 01_train-0139.png
+│   │   ├── 01_train-0140.png
+│   │   ├── 01_train-0141.png
+│   │   ├── 01_train-0142.png
+│   │   ├── 01_train-0143.png
+│   │   ├── 01_train-0144.png
+│   │   ├── 01_train-0145.png
+│   │   ├── 01_train-0146.png
+│   │   ├── 01_train-0147.png
+│   │   ├── 01_train-0148.png
+│   │   ├── 01_train-0149.png
+│   │   ├── 01_train-0150.png
+│   │   ├── 01_train-0151.png
+│   │   ├── 01_train-0152.png
+│   │   ├── 01_train-0153.png
+│   │   ├── 01_train-0154.png
+│   │   ├── 01_train-0155.png
+│   │   ├── 01_train-0156.png
+│   │   ├── 01_train-0157.png
+│   │   ├── 01_train-0158.png
+│   │   ├── 01_train-0159.png
+│   │   ├── 01_train-0160.png
+│   │   ├── 01_train-0161.png
+│   │   ├── 01_train-0162.png
+│   │   ├── 01_train-0163.png
+│   │   ├── 01_train-0164.png
+│   │   ├── 02_train-0000.png
+│   │   ├── 02_train-0001.png
+│   │   ├── 02_train-0002.png
+│   │   ├── 02_train-0003.png
+│   │   ├── 02_train-0004.png
+│   │   ├── 02_train-0005.png
+│   │   ├── 02_train-0006.png
+│   │   ├── 02_train-0007.png
+│   │   ├── 02_train-0008.png
+│   │   ├── 02_train-0009.png
+│   │   ├── 02_train-0010.png
+│   │   ├── 02_train-0011.png
+│   │   ├── 02_train-0012.png
+│   │   ├── 02_train-0013.png
+│   │   ├── 02_train-0014.png
+│   │   ├── 02_train-0015.png
+│   │   ├── 02_train-0016.png
+│   │   ├── 02_train-0017.png
+│   │   ├── 02_train-0018.png
+│   │   ├── 02_train-0019.png
+│   │   ├── 02_train-0020.png
+│   │   ├── 02_train-0021.png
+│   │   ├── 02_train-0022.png
+│   │   ├── 02_train-0023.png
+│   │   ├── 02_train-0024.png
+│   │   ├── 02_train-0025.png
+│   │   ├── 02_train-0026.png
+│   │   ├── 02_train-0027.png
+│   │   ├── 02_train-0028.png
+│   │   ├── 02_train-0029.png
+│   │   ├── 02_train-0030.png
+│   │   ├── 02_train-0031.png
+│   │   ├── 02_train-0032.png
+│   │   ├── 02_train-0033.png
+│   │   ├── 02_train-0034.png
+│   │   ├── 02_train-0035.png
+│   │   ├── 02_train-0036.png
+│   │   ├── 02_train-0037.png
+│   │   ├── 02_train-0038.png
+│   │   ├── 02_train-0039.png
+│   │   ├── 02_train-0040.png
+│   │   ├── 02_train-0041.png
+│   │   ├── 02_train-0042.png
+│   │   ├── 02_train-0043.png
+│   │   ├── 02_train-0044.png
+│   │   ├── 02_train-0045.png
+│   │   ├── 02_train-0046.png
+│   │   ├── 02_train-0047.png
+│   │   ├── 02_train-0048.png
+│   │   ├── 02_train-0049.png
+│   │   ├── 02_train-0050.png
+│   │   ├── 02_train-0051.png
+│   │   ├── 02_train-0052.png
+│   │   ├── 02_train-0053.png
+│   │   ├── 02_train-0054.png
+│   │   ├── 02_train-0055.png
+│   │   ├── 02_train-0056.png
+│   │   ├── 02_train-0057.png
+│   │   ├── 02_train-0058.png
+│   │   ├── 02_train-0059.png
+│   │   ├── 02_train-0060.png
+│   │   ├── 02_train-0061.png
+│   │   ├── 02_train-0062.png
+│   │   ├── 02_train-0063.png
+│   │   ├── 02_train-0064.png
+│   │   ├── 02_train-0065.png
+│   │   ├── 02_train-0066.png
+│   │   ├── 02_train-0067.png
+│   │   ├── 02_train-0068.png
+│   │   ├── 02_train-0069.png
+│   │   ├── 02_train-0070.png
+│   │   ├── 02_train-0071.png
+│   │   ├── 02_train-0072.png
+│   │   ├── 02_train-0073.png
+│   │   ├── 02_train-0074.png
+│   │   ├── 02_train-0075.png
+│   │   ├── 02_train-0076.png
+│   │   ├── 02_train-0077.png
+│   │   ├── 02_train-0078.png
+│   │   ├── 02_train-0079.png
+│   │   ├── 02_train-0080.png
+│   │   ├── 02_train-0081.png
+│   │   ├── 02_train-0082.png
+│   │   ├── 02_train-0083.png
+│   │   ├── 02_train-0084.png
+│   │   ├── 02_train-0085.png
+│   │   ├── 02_train-0086.png
+│   │   ├── 02_train-0087.png
+│   │   ├── 02_train-0088.png
+│   │   ├── 02_train-0089.png
+│   │   ├── 02_train-0090.png
+│   │   ├── 02_train-0091.png
+│   │   ├── 02_train-0092.png
+│   │   ├── 02_train-0093.png
+│   │   ├── 02_train-0094.png
+│   │   ├── 02_train-0095.png
+│   │   ├── 02_train-0096.png
+│   │   ├── 02_train-0097.png
+│   │   ├── 02_train-0098.png
+│   │   ├── 02_train-0099.png
+│   │   ├── 02_train-0100.png
+│   │   ├── 02_train-0101.png
+│   │   ├── 02_train-0102.png
+│   │   ├── 02_train-0103.png
+│   │   ├── 02_train-0104.png
+│   │   ├── 02_train-0105.png
+│   │   ├── 02_train-0106.png
+│   │   ├── 02_train-0107.png
+│   │   ├── 02_train-0108.png
+│   │   ├── 02_train-0109.png
+│   │   ├── 02_train-0110.png
+│   │   ├── 02_train-0111.png
+│   │   ├── 02_train-0112.png
+│   │   ├── 02_train-0113.png
+│   │   ├── 02_train-0114.png
+│   │   ├── 02_train-0115.png
+│   │   ├── 02_train-0116.png
+│   │   ├── 02_train-0117.png
+│   │   ├── 02_train-0118.png
+│   │   ├── 02_train-0119.png
+│   │   ├── 02_train-0120.png
+│   │   ├── 02_train-0121.png
+│   │   ├── 02_train-0122.png
+│   │   ├── 02_train-0123.png
+│   │   ├── 02_train-0124.png
+│   │   ├── 02_train-0125.png
+│   │   ├── 02_train-0126.png
+│   │   ├── 02_train-0127.png
+│   │   ├── 02_train-0128.png
+│   │   ├── 02_train-0129.png
+│   │   ├── 02_train-0130.png
+│   │   ├── 02_train-0131.png
+│   │   ├── 02_train-0132.png
+│   │   ├── 02_train-0133.png
+│   │   ├── 02_train-0134.png
+│   │   ├── 02_train-0135.png
+│   │   ├── 02_train-0136.png
+│   │   ├── 02_train-0137.png
+│   │   ├── 02_train-0138.png
+│   │   ├── 02_train-0139.png
+│   │   ├── 02_train-0140.png
+│   │   ├── 02_train-0141.png
+│   │   ├── 02_train-0142.png
+│   │   ├── 02_train-0143.png
+│   │   ├── 02_train-0144.png
+│   │   ├── 02_train-0145.png
+│   │   ├── 02_train-0146.png
+│   │   ├── 02_train-0147.png
+│   │   ├── 02_train-0148.png
+│   │   ├── 02_train-0149.png
+│   │   ├── 02_train-0150.png
+│   │   ├── 02_train-0151.png
+│   │   ├── 02_train-0152.png
+│   │   ├── 02_train-0153.png
+│   │   ├── 02_train-0154.png
+│   │   ├── 02_train-0155.png
+│   │   ├── 02_train-0156.png
+│   │   ├── 02_train-0157.png
+│   │   ├── 02_train-0158.png
+│   │   ├── 02_train-0159.png
+│   │   ├── 02_train-0160.png
+│   │   ├── 02_train-0161.png
+│   │   ├── 02_train-0162.png
+│   │   ├── 02_train-0163.png
+│   │   ├── 02_train-0164.png
+│   │   ├── 03_train-0000.png
+│   │   ├── 03_train-0001.png
+│   │   ├── 03_train-0002.png
+│   │   ├── 03_train-0003.png
+│   │   ├── 03_train-0004.png
+│   │   ├── 03_train-0005.png
+│   │   ├── 03_train-0006.png
+│   │   ├── 03_train-0007.png
+│   │   ├── 03_train-0008.png
+│   │   ├── 03_train-0009.png
+│   │   ├── 03_train-0010.png
+│   │   ├── 03_train-0011.png
+│   │   ├── 03_train-0012.png
+│   │   ├── 03_train-0013.png
+│   │   ├── 03_train-0014.png
+│   │   ├── 03_train-0015.png
+│   │   ├── 03_train-0016.png
+│   │   ├── 03_train-0017.png
+│   │   ├── 03_train-0018.png
+│   │   ├── 03_train-0019.png
+│   │   ├── 03_train-0020.png
+│   │   ├── 03_train-0021.png
+│   │   ├── 03_train-0022.png
+│   │   ├── 03_train-0023.png
+│   │   ├── 03_train-0024.png
+│   │   ├── 03_train-0025.png
+│   │   ├── 03_train-0026.png
+│   │   ├── 03_train-0027.png
+│   │   ├── 03_train-0028.png
+│   │   ├── 03_train-0029.png
+│   │   ├── 03_train-0030.png
+│   │   ├── 03_train-0031.png
+│   │   ├── 03_train-0032.png
+│   │   ├── 03_train-0033.png
+│   │   ├── 03_train-0034.png
+│   │   ├── 03_train-0035.png
+│   │   ├── 03_train-0036.png
+│   │   ├── 03_train-0037.png
+│   │   ├── 03_train-0038.png
+│   │   ├── 03_train-0039.png
+│   │   ├── 03_train-0040.png
+│   │   ├── 03_train-0041.png
+│   │   ├── 03_train-0042.png
+│   │   ├── 03_train-0043.png
+│   │   ├── 03_train-0044.png
+│   │   ├── 03_train-0045.png
+│   │   ├── 03_train-0046.png
+│   │   ├── 03_train-0047.png
+│   │   ├── 03_train-0048.png
+│   │   ├── 03_train-0049.png
+│   │   ├── 03_train-0050.png
+│   │   ├── 03_train-0051.png
+│   │   ├── 03_train-0052.png
+│   │   ├── 03_train-0053.png
+│   │   ├── 03_train-0054.png
+│   │   ├── 03_train-0055.png
+│   │   ├── 03_train-0056.png
+│   │   ├── 03_train-0057.png
+│   │   ├── 03_train-0058.png
+│   │   ├── 03_train-0059.png
+│   │   ├── 03_train-0060.png
+│   │   ├── 03_train-0061.png
+│   │   ├── 03_train-0062.png
+│   │   ├── 03_train-0063.png
+│   │   ├── 03_train-0064.png
+│   │   ├── 03_train-0065.png
+│   │   ├── 03_train-0066.png
+│   │   ├── 03_train-0067.png
+│   │   ├── 03_train-0068.png
+│   │   ├── 03_train-0069.png
+│   │   ├── 03_train-0070.png
+│   │   ├── 03_train-0071.png
+│   │   ├── 03_train-0072.png
+│   │   ├── 03_train-0073.png
+│   │   ├── 03_train-0074.png
+│   │   ├── 03_train-0075.png
+│   │   ├── 03_train-0076.png
+│   │   ├── 03_train-0077.png
+│   │   ├── 03_train-0078.png
+│   │   ├── 03_train-0079.png
+│   │   ├── 03_train-0080.png
+│   │   ├── 03_train-0081.png
+│   │   ├── 03_train-0082.png
+│   │   ├── 03_train-0083.png
+│   │   ├── 03_train-0084.png
+│   │   ├── 03_train-0085.png
+│   │   ├── 03_train-0086.png
+│   │   ├── 03_train-0087.png
+│   │   ├── 03_train-0088.png
+│   │   ├── 03_train-0089.png
+│   │   ├── 03_train-0090.png
+│   │   ├── 03_train-0091.png
+│   │   ├── 03_train-0092.png
+│   │   ├── 03_train-0093.png
+│   │   ├── 03_train-0094.png
+│   │   ├── 03_train-0095.png
+│   │   ├── 03_train-0096.png
+│   │   ├── 03_train-0097.png
+│   │   ├── 03_train-0098.png
+│   │   ├── 03_train-0099.png
+│   │   ├── 03_train-0100.png
+│   │   ├── 03_train-0101.png
+│   │   ├── 03_train-0102.png
+│   │   ├── 03_train-0103.png
+│   │   ├── 03_train-0104.png
+│   │   ├── 03_train-0105.png
+│   │   ├── 03_train-0106.png
+│   │   ├── 03_train-0107.png
+│   │   ├── 03_train-0108.png
+│   │   ├── 03_train-0109.png
+│   │   ├── 03_train-0110.png
+│   │   ├── 03_train-0111.png
+│   │   ├── 03_train-0112.png
+│   │   ├── 03_train-0113.png
+│   │   ├── 03_train-0114.png
+│   │   ├── 03_train-0115.png
+│   │   ├── 03_train-0116.png
+│   │   ├── 03_train-0117.png
+│   │   ├── 03_train-0118.png
+│   │   ├── 03_train-0119.png
+│   │   ├── 03_train-0120.png
+│   │   ├── 03_train-0121.png
+│   │   ├── 03_train-0122.png
+│   │   ├── 03_train-0123.png
+│   │   ├── 03_train-0124.png
+│   │   ├── 03_train-0125.png
+│   │   ├── 03_train-0126.png
+│   │   ├── 03_train-0127.png
+│   │   ├── 03_train-0128.png
+│   │   ├── 03_train-0129.png
+│   │   ├── 03_train-0130.png
+│   │   ├── 03_train-0131.png
+│   │   ├── 03_train-0132.png
+│   │   ├── 03_train-0133.png
+│   │   ├── 03_train-0134.png
+│   │   ├── 03_train-0135.png
+│   │   ├── 03_train-0136.png
+│   │   ├── 03_train-0137.png
+│   │   ├── 03_train-0138.png
+│   │   ├── 03_train-0139.png
+│   │   ├── 03_train-0140.png
+│   │   ├── 03_train-0141.png
+│   │   ├── 03_train-0142.png
+│   │   ├── 03_train-0143.png
+│   │   ├── 03_train-0144.png
+│   │   ├── 03_train-0145.png
+│   │   ├── 03_train-0146.png
+│   │   ├── 03_train-0147.png
+│   │   ├── 03_train-0148.png
+│   │   ├── 03_train-0149.png
+│   │   ├── 03_train-0150.png
+│   │   ├── 03_train-0151.png
+│   │   ├── 03_train-0152.png
+│   │   ├── 03_train-0153.png
+│   │   ├── 03_train-0154.png
+│   │   ├── 03_train-0155.png
+│   │   ├── 03_train-0156.png
+│   │   ├── 03_train-0157.png
+│   │   ├── 03_train-0158.png
+│   │   ├── 03_train-0159.png
+│   │   ├── 03_train-0160.png
+│   │   ├── 03_train-0161.png
+│   │   ├── 03_train-0162.png
+│   │   ├── 03_train-0163.png
+│   │   └── 03_train-0164.png
+│   └── masks
+│       ├── 00_train-0000.png
+│       ├── 00_train-0001.png
+│       ├── 00_train-0002.png
+│       ├── 00_train-0003.png
+│       ├── 00_train-0004.png
+│       ├── 00_train-0005.png
+│       ├── 00_train-0006.png
+│       ├── 00_train-0007.png
+│       ├── 00_train-0008.png
+│       ├── 00_train-0009.png
+│       ├── 00_train-0010.png
+│       ├── 00_train-0011.png
+│       ├── 00_train-0012.png
+│       ├── 00_train-0013.png
+│       ├── 00_train-0014.png
+│       ├── 00_train-0015.png
+│       ├── 00_train-0016.png
+│       ├── 00_train-0017.png
+│       ├── 00_train-0018.png
+│       ├── 00_train-0019.png
+│       ├── 00_train-0020.png
+│       ├── 00_train-0021.png
+│       ├── 00_train-0022.png
+│       ├── 00_train-0023.png
+│       ├── 00_train-0024.png
+│       ├── 00_train-0025.png
+│       ├── 00_train-0026.png
+│       ├── 00_train-0027.png
+│       ├── 00_train-0028.png
+│       ├── 00_train-0029.png
+│       ├── 00_train-0030.png
+│       ├── 00_train-0031.png
+│       ├── 00_train-0032.png
+│       ├── 00_train-0033.png
+│       ├── 00_train-0034.png
+│       ├── 00_train-0035.png
+│       ├── 00_train-0036.png
+│       ├── 00_train-0037.png
+│       ├── 00_train-0038.png
+│       ├── 00_train-0039.png
+│       ├── 00_train-0040.png
+│       ├── 00_train-0041.png
+│       ├── 00_train-0042.png
+│       ├── 00_train-0043.png
+│       ├── 00_train-0044.png
+│       ├── 00_train-0045.png
+│       ├── 00_train-0046.png
+│       ├── 00_train-0047.png
+│       ├── 00_train-0048.png
+│       ├── 00_train-0049.png
+│       ├── 00_train-0050.png
+│       ├── 00_train-0051.png
+│       ├── 00_train-0052.png
+│       ├── 00_train-0053.png
+│       ├── 00_train-0054.png
+│       ├── 00_train-0055.png
+│       ├── 00_train-0056.png
+│       ├── 00_train-0057.png
+│       ├── 00_train-0058.png
+│       ├── 00_train-0059.png
+│       ├── 00_train-0060.png
+│       ├── 00_train-0061.png
+│       ├── 00_train-0062.png
+│       ├── 00_train-0063.png
+│       ├── 00_train-0064.png
+│       ├── 00_train-0065.png
+│       ├── 00_train-0066.png
+│       ├── 00_train-0067.png
+│       ├── 00_train-0068.png
+│       ├── 00_train-0069.png
+│       ├── 00_train-0070.png
+│       ├── 00_train-0071.png
+│       ├── 00_train-0072.png
+│       ├── 00_train-0073.png
+│       ├── 00_train-0074.png
+│       ├── 00_train-0075.png
+│       ├── 00_train-0076.png
+│       ├── 00_train-0077.png
+│       ├── 00_train-0078.png
+│       ├── 00_train-0079.png
+│       ├── 00_train-0080.png
+│       ├── 00_train-0081.png
+│       ├── 00_train-0082.png
+│       ├── 00_train-0083.png
+│       ├── 00_train-0084.png
+│       ├── 00_train-0085.png
+│       ├── 00_train-0086.png
+│       ├── 00_train-0087.png
+│       ├── 00_train-0088.png
+│       ├── 00_train-0089.png
+│       ├── 00_train-0090.png
+│       ├── 00_train-0091.png
+│       ├── 00_train-0092.png
+│       ├── 00_train-0093.png
+│       ├── 00_train-0094.png
+│       ├── 00_train-0095.png
+│       ├── 00_train-0096.png
+│       ├── 00_train-0097.png
+│       ├── 00_train-0098.png
+│       ├── 00_train-0099.png
+│       ├── 00_train-0100.png
+│       ├── 00_train-0101.png
+│       ├── 00_train-0102.png
+│       ├── 00_train-0103.png
+│       ├── 00_train-0104.png
+│       ├── 00_train-0105.png
+│       ├── 00_train-0106.png
+│       ├── 00_train-0107.png
+│       ├── 00_train-0108.png
+│       ├── 00_train-0109.png
+│       ├── 00_train-0110.png
+│       ├── 00_train-0111.png
+│       ├── 00_train-0112.png
+│       ├── 00_train-0113.png
+│       ├── 00_train-0114.png
+│       ├── 00_train-0115.png
+│       ├── 00_train-0116.png
+│       ├── 00_train-0117.png
+│       ├── 00_train-0118.png
+│       ├── 00_train-0119.png
+│       ├── 00_train-0120.png
+│       ├── 00_train-0121.png
+│       ├── 00_train-0122.png
+│       ├── 00_train-0123.png
+│       ├── 00_train-0124.png
+│       ├── 00_train-0125.png
+│       ├── 00_train-0126.png
+│       ├── 00_train-0127.png
+│       ├── 00_train-0128.png
+│       ├── 00_train-0129.png
+│       ├── 00_train-0130.png
+│       ├── 00_train-0131.png
+│       ├── 00_train-0132.png
+│       ├── 00_train-0133.png
+│       ├── 00_train-0134.png
+│       ├── 00_train-0135.png
+│       ├── 00_train-0136.png
+│       ├── 00_train-0137.png
+│       ├── 00_train-0138.png
+│       ├── 00_train-0139.png
+│       ├── 00_train-0140.png
+│       ├── 00_train-0141.png
+│       ├── 00_train-0142.png
+│       ├── 00_train-0143.png
+│       ├── 00_train-0144.png
+│       ├── 00_train-0145.png
+│       ├── 00_train-0146.png
+│       ├── 00_train-0147.png
+│       ├── 00_train-0148.png
+│       ├── 00_train-0149.png
+│       ├── 00_train-0150.png
+│       ├── 00_train-0151.png
+│       ├── 00_train-0152.png
+│       ├── 00_train-0153.png
+│       ├── 00_train-0154.png
+│       ├── 00_train-0155.png
+│       ├── 00_train-0156.png
+│       ├── 00_train-0157.png
+│       ├── 00_train-0158.png
+│       ├── 00_train-0159.png
+│       ├── 00_train-0160.png
+│       ├── 00_train-0161.png
+│       ├── 00_train-0162.png
+│       ├── 00_train-0163.png
+│       ├── 00_train-0164.png
+│       ├── 01_train-0000.png
+│       ├── 01_train-0001.png
+│       ├── 01_train-0002.png
+│       ├── 01_train-0003.png
+│       ├── 01_train-0004.png
+│       ├── 01_train-0005.png
+│       ├── 01_train-0006.png
+│       ├── 01_train-0007.png
+│       ├── 01_train-0008.png
+│       ├── 01_train-0009.png
+│       ├── 01_train-0010.png
+│       ├── 01_train-0011.png
+│       ├── 01_train-0012.png
+│       ├── 01_train-0013.png
+│       ├── 01_train-0014.png
+│       ├── 01_train-0015.png
+│       ├── 01_train-0016.png
+│       ├── 01_train-0017.png
+│       ├── 01_train-0018.png
+│       ├── 01_train-0019.png
+│       ├── 01_train-0020.png
+│       ├── 01_train-0021.png
+│       ├── 01_train-0022.png
+│       ├── 01_train-0023.png
+│       ├── 01_train-0024.png
+│       ├── 01_train-0025.png
+│       ├── 01_train-0026.png
+│       ├── 01_train-0027.png
+│       ├── 01_train-0028.png
+│       ├── 01_train-0029.png
+│       ├── 01_train-0030.png
+│       ├── 01_train-0031.png
+│       ├── 01_train-0032.png
+│       ├── 01_train-0033.png
+│       ├── 01_train-0034.png
+│       ├── 01_train-0035.png
+│       ├── 01_train-0036.png
+│       ├── 01_train-0037.png
+│       ├── 01_train-0038.png
+│       ├── 01_train-0039.png
+│       ├── 01_train-0040.png
+│       ├── 01_train-0041.png
+│       ├── 01_train-0042.png
+│       ├── 01_train-0043.png
+│       ├── 01_train-0044.png
+│       ├── 01_train-0045.png
+│       ├── 01_train-0046.png
+│       ├── 01_train-0047.png
+│       ├── 01_train-0048.png
+│       ├── 01_train-0049.png
+│       ├── 01_train-0050.png
+│       ├── 01_train-0051.png
+│       ├── 01_train-0052.png
+│       ├── 01_train-0053.png
+│       ├── 01_train-0054.png
+│       ├── 01_train-0055.png
+│       ├── 01_train-0056.png
+│       ├── 01_train-0057.png
+│       ├── 01_train-0058.png
+│       ├── 01_train-0059.png
+│       ├── 01_train-0060.png
+│       ├── 01_train-0061.png
+│       ├── 01_train-0062.png
+│       ├── 01_train-0063.png
+│       ├── 01_train-0064.png
+│       ├── 01_train-0065.png
+│       ├── 01_train-0066.png
+│       ├── 01_train-0067.png
+│       ├── 01_train-0068.png
+│       ├── 01_train-0069.png
+│       ├── 01_train-0070.png
+│       ├── 01_train-0071.png
+│       ├── 01_train-0072.png
+│       ├── 01_train-0073.png
+│       ├── 01_train-0074.png
+│       ├── 01_train-0075.png
+│       ├── 01_train-0076.png
+│       ├── 01_train-0077.png
+│       ├── 01_train-0078.png
+│       ├── 01_train-0079.png
+│       ├── 01_train-0080.png
+│       ├── 01_train-0081.png
+│       ├── 01_train-0082.png
+│       ├── 01_train-0083.png
+│       ├── 01_train-0084.png
+│       ├── 01_train-0085.png
+│       ├── 01_train-0086.png
+│       ├── 01_train-0087.png
+│       ├── 01_train-0088.png
+│       ├── 01_train-0089.png
+│       ├── 01_train-0090.png
+│       ├── 01_train-0091.png
+│       ├── 01_train-0092.png
+│       ├── 01_train-0093.png
+│       ├── 01_train-0094.png
+│       ├── 01_train-0095.png
+│       ├── 01_train-0096.png
+│       ├── 01_train-0097.png
+│       ├── 01_train-0098.png
+│       ├── 01_train-0099.png
+│       ├── 01_train-0100.png
+│       ├── 01_train-0101.png
+│       ├── 01_train-0102.png
+│       ├── 01_train-0103.png
+│       ├── 01_train-0104.png
+│       ├── 01_train-0105.png
+│       ├── 01_train-0106.png
+│       ├── 01_train-0107.png
+│       ├── 01_train-0108.png
+│       ├── 01_train-0109.png
+│       ├── 01_train-0110.png
+│       ├── 01_train-0111.png
+│       ├── 01_train-0112.png
+│       ├── 01_train-0113.png
+│       ├── 01_train-0114.png
+│       ├── 01_train-0115.png
+│       ├── 01_train-0116.png
+│       ├── 01_train-0117.png
+│       ├── 01_train-0118.png
+│       ├── 01_train-0119.png
+│       ├── 01_train-0120.png
+│       ├── 01_train-0121.png
+│       ├── 01_train-0122.png
+│       ├── 01_train-0123.png
+│       ├── 01_train-0124.png
+│       ├── 01_train-0125.png
+│       ├── 01_train-0126.png
+│       ├── 01_train-0127.png
+│       ├── 01_train-0128.png
+│       ├── 01_train-0129.png
+│       ├── 01_train-0130.png
+│       ├── 01_train-0131.png
+│       ├── 01_train-0132.png
+│       ├── 01_train-0133.png
+│       ├── 01_train-0134.png
+│       ├── 01_train-0135.png
+│       ├── 01_train-0136.png
+│       ├── 01_train-0137.png
+│       ├── 01_train-0138.png
+│       ├── 01_train-0139.png
+│       ├── 01_train-0140.png
+│       ├── 01_train-0141.png
+│       ├── 01_train-0142.png
+│       ├── 01_train-0143.png
+│       ├── 01_train-0144.png
+│       ├── 01_train-0145.png
+│       ├── 01_train-0146.png
+│       ├── 01_train-0147.png
+│       ├── 01_train-0148.png
+│       ├── 01_train-0149.png
+│       ├── 01_train-0150.png
+│       ├── 01_train-0151.png
+│       ├── 01_train-0152.png
+│       ├── 01_train-0153.png
+│       ├── 01_train-0154.png
+│       ├── 01_train-0155.png
+│       ├── 01_train-0156.png
+│       ├── 01_train-0157.png
+│       ├── 01_train-0158.png
+│       ├── 01_train-0159.png
+│       ├── 01_train-0160.png
+│       ├── 01_train-0161.png
+│       ├── 01_train-0162.png
+│       ├── 01_train-0163.png
+│       ├── 01_train-0164.png
+│       ├── 02_train-0000.png
+│       ├── 02_train-0001.png
+│       ├── 02_train-0002.png
+│       ├── 02_train-0003.png
+│       ├── 02_train-0004.png
+│       ├── 02_train-0005.png
+│       ├── 02_train-0006.png
+│       ├── 02_train-0007.png
+│       ├── 02_train-0008.png
+│       ├── 02_train-0009.png
+│       ├── 02_train-0010.png
+│       ├── 02_train-0011.png
+│       ├── 02_train-0012.png
+│       ├── 02_train-0013.png
+│       ├── 02_train-0014.png
+│       ├── 02_train-0015.png
+│       ├── 02_train-0016.png
+│       ├── 02_train-0017.png
+│       ├── 02_train-0018.png
+│       ├── 02_train-0019.png
+│       ├── 02_train-0020.png
+│       ├── 02_train-0021.png
+│       ├── 02_train-0022.png
+│       ├── 02_train-0023.png
+│       ├── 02_train-0024.png
+│       ├── 02_train-0025.png
+│       ├── 02_train-0026.png
+│       ├── 02_train-0027.png
+│       ├── 02_train-0028.png
+│       ├── 02_train-0029.png
+│       ├── 02_train-0030.png
+│       ├── 02_train-0031.png
+│       ├── 02_train-0032.png
+│       ├── 02_train-0033.png
+│       ├── 02_train-0034.png
+│       ├── 02_train-0035.png
+│       ├── 02_train-0036.png
+│       ├── 02_train-0037.png
+│       ├── 02_train-0038.png
+│       ├── 02_train-0039.png
+│       ├── 02_train-0040.png
+│       ├── 02_train-0041.png
+│       ├── 02_train-0042.png
+│       ├── 02_train-0043.png
+│       ├── 02_train-0044.png
+│       ├── 02_train-0045.png
+│       ├── 02_train-0046.png
+│       ├── 02_train-0047.png
+│       ├── 02_train-0048.png
+│       ├── 02_train-0049.png
+│       ├── 02_train-0050.png
+│       ├── 02_train-0051.png
+│       ├── 02_train-0052.png
+│       ├── 02_train-0053.png
+│       ├── 02_train-0054.png
+│       ├── 02_train-0055.png
+│       ├── 02_train-0056.png
+│       ├── 02_train-0057.png
+│       ├── 02_train-0058.png
+│       ├── 02_train-0059.png
+│       ├── 02_train-0060.png
+│       ├── 02_train-0061.png
+│       ├── 02_train-0062.png
+│       ├── 02_train-0063.png
+│       ├── 02_train-0064.png
+│       ├── 02_train-0065.png
+│       ├── 02_train-0066.png
+│       ├── 02_train-0067.png
+│       ├── 02_train-0068.png
+│       ├── 02_train-0069.png
+│       ├── 02_train-0070.png
+│       ├── 02_train-0071.png
+│       ├── 02_train-0072.png
+│       ├── 02_train-0073.png
+│       ├── 02_train-0074.png
+│       ├── 02_train-0075.png
+│       ├── 02_train-0076.png
+│       ├── 02_train-0077.png
+│       ├── 02_train-0078.png
+│       ├── 02_train-0079.png
+│       ├── 02_train-0080.png
+│       ├── 02_train-0081.png
+│       ├── 02_train-0082.png
+│       ├── 02_train-0083.png
+│       ├── 02_train-0084.png
+│       ├── 02_train-0085.png
+│       ├── 02_train-0086.png
+│       ├── 02_train-0087.png
+│       ├── 02_train-0088.png
+│       ├── 02_train-0089.png
+│       ├── 02_train-0090.png
+│       ├── 02_train-0091.png
+│       ├── 02_train-0092.png
+│       ├── 02_train-0093.png
+│       ├── 02_train-0094.png
+│       ├── 02_train-0095.png
+│       ├── 02_train-0096.png
+│       ├── 02_train-0097.png
+│       ├── 02_train-0098.png
+│       ├── 02_train-0099.png
+│       ├── 02_train-0100.png
+│       ├── 02_train-0101.png
+│       ├── 02_train-0102.png
+│       ├── 02_train-0103.png
+│       ├── 02_train-0104.png
+│       ├── 02_train-0105.png
+│       ├── 02_train-0106.png
+│       ├── 02_train-0107.png
+│       ├── 02_train-0108.png
+│       ├── 02_train-0109.png
+│       ├── 02_train-0110.png
+│       ├── 02_train-0111.png
+│       ├── 02_train-0112.png
+│       ├── 02_train-0113.png
+│       ├── 02_train-0114.png
+│       ├── 02_train-0115.png
+│       ├── 02_train-0116.png
+│       ├── 02_train-0117.png
+│       ├── 02_train-0118.png
+│       ├── 02_train-0119.png
+│       ├── 02_train-0120.png
+│       ├── 02_train-0121.png
+│       ├── 02_train-0122.png
+│       ├── 02_train-0123.png
+│       ├── 02_train-0124.png
+│       ├── 02_train-0125.png
+│       ├── 02_train-0126.png
+│       ├── 02_train-0127.png
+│       ├── 02_train-0128.png
+│       ├── 02_train-0129.png
+│       ├── 02_train-0130.png
+│       ├── 02_train-0131.png
+│       ├── 02_train-0132.png
+│       ├── 02_train-0133.png
+│       ├── 02_train-0134.png
+│       ├── 02_train-0135.png
+│       ├── 02_train-0136.png
+│       ├── 02_train-0137.png
+│       ├── 02_train-0138.png
+│       ├── 02_train-0139.png
+│       ├── 02_train-0140.png
+│       ├── 02_train-0141.png
+│       ├── 02_train-0142.png
+│       ├── 02_train-0143.png
+│       ├── 02_train-0144.png
+│       ├── 02_train-0145.png
+│       ├── 02_train-0146.png
+│       ├── 02_train-0147.png
+│       ├── 02_train-0148.png
+│       ├── 02_train-0149.png
+│       ├── 02_train-0150.png
+│       ├── 02_train-0151.png
+│       ├── 02_train-0152.png
+│       ├── 02_train-0153.png
+│       ├── 02_train-0154.png
+│       ├── 02_train-0155.png
+│       ├── 02_train-0156.png
+│       ├── 02_train-0157.png
+│       ├── 02_train-0158.png
+│       ├── 02_train-0159.png
+│       ├── 02_train-0160.png
+│       ├── 02_train-0161.png
+│       ├── 02_train-0162.png
+│       ├── 02_train-0163.png
+│       ├── 02_train-0164.png
+│       ├── 03_train-0000.png
+│       ├── 03_train-0001.png
+│       ├── 03_train-0002.png
+│       ├── 03_train-0003.png
+│       ├── 03_train-0004.png
+│       ├── 03_train-0005.png
+│       ├── 03_train-0006.png
+│       ├── 03_train-0007.png
+│       ├── 03_train-0008.png
+│       ├── 03_train-0009.png
+│       ├── 03_train-0010.png
+│       ├── 03_train-0011.png
+│       ├── 03_train-0012.png
+│       ├── 03_train-0013.png
+│       ├── 03_train-0014.png
+│       ├── 03_train-0015.png
+│       ├── 03_train-0016.png
+│       ├── 03_train-0017.png
+│       ├── 03_train-0018.png
+│       ├── 03_train-0019.png
+│       ├── 03_train-0020.png
+│       ├── 03_train-0021.png
+│       ├── 03_train-0022.png
+│       ├── 03_train-0023.png
+│       ├── 03_train-0024.png
+│       ├── 03_train-0025.png
+│       ├── 03_train-0026.png
+│       ├── 03_train-0027.png
+│       ├── 03_train-0028.png
+│       ├── 03_train-0029.png
+│       ├── 03_train-0030.png
+│       ├── 03_train-0031.png
+│       ├── 03_train-0032.png
+│       ├── 03_train-0033.png
+│       ├── 03_train-0034.png
+│       ├── 03_train-0035.png
+│       ├── 03_train-0036.png
+│       ├── 03_train-0037.png
+│       ├── 03_train-0038.png
+│       ├── 03_train-0039.png
+│       ├── 03_train-0040.png
+│       ├── 03_train-0041.png
+│       ├── 03_train-0042.png
+│       ├── 03_train-0043.png
+│       ├── 03_train-0044.png
+│       ├── 03_train-0045.png
+│       ├── 03_train-0046.png
+│       ├── 03_train-0047.png
+│       ├── 03_train-0048.png
+│       ├── 03_train-0049.png
+│       ├── 03_train-0050.png
+│       ├── 03_train-0051.png
+│       ├── 03_train-0052.png
+│       ├── 03_train-0053.png
+│       ├── 03_train-0054.png
+│       ├── 03_train-0055.png
+│       ├── 03_train-0056.png
+│       ├── 03_train-0057.png
+│       ├── 03_train-0058.png
+│       ├── 03_train-0059.png
+│       ├── 03_train-0060.png
+│       ├── 03_train-0061.png
+│       ├── 03_train-0062.png
+│       ├── 03_train-0063.png
+│       ├── 03_train-0064.png
+│       ├── 03_train-0065.png
+│       ├── 03_train-0066.png
+│       ├── 03_train-0067.png
+│       ├── 03_train-0068.png
+│       ├── 03_train-0069.png
+│       ├── 03_train-0070.png
+│       ├── 03_train-0071.png
+│       ├── 03_train-0072.png
+│       ├── 03_train-0073.png
+│       ├── 03_train-0074.png
+│       ├── 03_train-0075.png
+│       ├── 03_train-0076.png
+│       ├── 03_train-0077.png
+│       ├── 03_train-0078.png
+│       ├── 03_train-0079.png
+│       ├── 03_train-0080.png
+│       ├── 03_train-0081.png
+│       ├── 03_train-0082.png
+│       ├── 03_train-0083.png
+│       ├── 03_train-0084.png
+│       ├── 03_train-0085.png
+│       ├── 03_train-0086.png
+│       ├── 03_train-0087.png
+│       ├── 03_train-0088.png
+│       ├── 03_train-0089.png
+│       ├── 03_train-0090.png
+│       ├── 03_train-0091.png
+│       ├── 03_train-0092.png
+│       ├── 03_train-0093.png
+│       ├── 03_train-0094.png
+│       ├── 03_train-0095.png
+│       ├── 03_train-0096.png
+│       ├── 03_train-0097.png
+│       ├── 03_train-0098.png
+│       ├── 03_train-0099.png
+│       ├── 03_train-0100.png
+│       ├── 03_train-0101.png
+│       ├── 03_train-0102.png
+│       ├── 03_train-0103.png
+│       ├── 03_train-0104.png
+│       ├── 03_train-0105.png
+│       ├── 03_train-0106.png
+│       ├── 03_train-0107.png
+│       ├── 03_train-0108.png
+│       ├── 03_train-0109.png
+│       ├── 03_train-0110.png
+│       ├── 03_train-0111.png
+│       ├── 03_train-0112.png
+│       ├── 03_train-0113.png
+│       ├── 03_train-0114.png
+│       ├── 03_train-0115.png
+│       ├── 03_train-0116.png
+│       ├── 03_train-0117.png
+│       ├── 03_train-0118.png
+│       ├── 03_train-0119.png
+│       ├── 03_train-0120.png
+│       ├── 03_train-0121.png
+│       ├── 03_train-0122.png
+│       ├── 03_train-0123.png
+│       ├── 03_train-0124.png
+│       ├── 03_train-0125.png
+│       ├── 03_train-0126.png
+│       ├── 03_train-0127.png
+│       ├── 03_train-0128.png
+│       ├── 03_train-0129.png
+│       ├── 03_train-0130.png
+│       ├── 03_train-0131.png
+│       ├── 03_train-0132.png
+│       ├── 03_train-0133.png
+│       ├── 03_train-0134.png
+│       ├── 03_train-0135.png
+│       ├── 03_train-0136.png
+│       ├── 03_train-0137.png
+│       ├── 03_train-0138.png
+│       ├── 03_train-0139.png
+│       ├── 03_train-0140.png
+│       ├── 03_train-0141.png
+│       ├── 03_train-0142.png
+│       ├── 03_train-0143.png
+│       ├── 03_train-0144.png
+│       ├── 03_train-0145.png
+│       ├── 03_train-0146.png
+│       ├── 03_train-0147.png
+│       ├── 03_train-0148.png
+│       ├── 03_train-0149.png
+│       ├── 03_train-0150.png
+│       ├── 03_train-0151.png
+│       ├── 03_train-0152.png
+│       ├── 03_train-0153.png
+│       ├── 03_train-0154.png
+│       ├── 03_train-0155.png
+│       ├── 03_train-0156.png
+│       ├── 03_train-0157.png
+│       ├── 03_train-0158.png
+│       ├── 03_train-0159.png
+│       ├── 03_train-0160.png
+│       ├── 03_train-0161.png
+│       ├── 03_train-0162.png
+│       ├── 03_train-0163.png
+│       └── 03_train-0164.png
+├── compressed
+│   ├── 00_train-0000.png.npz
+│   ├── 00_train-0001.png.npz
+│   ├── 00_train-0002.png.npz
+│   ├── 00_train-0003.png.npz
+│   ├── 00_train-0004.png.npz
+│   ├── 00_train-0005.png.npz
+│   ├── 00_train-0006.png.npz
+│   ├── 00_train-0007.png.npz
+│   ├── 00_train-0008.png.npz
+│   ├── 00_train-0009.png.npz
+│   ├── 00_train-0010.png.npz
+│   ├── 00_train-0011.png.npz
+│   ├── 00_train-0012.png.npz
+│   ├── 00_train-0013.png.npz
+│   ├── 00_train-0014.png.npz
+│   ├── 00_train-0015.png.npz
+│   ├── 00_train-0016.png.npz
+│   ├── 00_train-0017.png.npz
+│   ├── 00_train-0018.png.npz
+│   ├── 00_train-0019.png.npz
+│   ├── 00_train-0020.png.npz
+│   ├── 00_train-0021.png.npz
+│   ├── 00_train-0022.png.npz
+│   ├── 00_train-0023.png.npz
+│   ├── 00_train-0024.png.npz
+│   ├── 00_train-0025.png.npz
+│   ├── 00_train-0026.png.npz
+│   ├── 00_train-0027.png.npz
+│   ├── 00_train-0028.png.npz
+│   ├── 00_train-0029.png.npz
+│   ├── 00_train-0030.png.npz
+│   ├── 00_train-0031.png.npz
+│   ├── 00_train-0032.png.npz
+│   ├── 00_train-0033.png.npz
+│   ├── 00_train-0034.png.npz
+│   ├── 00_train-0035.png.npz
+│   ├── 00_train-0036.png.npz
+│   ├── 00_train-0037.png.npz
+│   ├── 00_train-0038.png.npz
+│   ├── 00_train-0039.png.npz
+│   ├── 00_train-0040.png.npz
+│   ├── 00_train-0041.png.npz
+│   ├── 00_train-0042.png.npz
+│   ├── 00_train-0043.png.npz
+│   ├── 00_train-0044.png.npz
+│   ├── 00_train-0045.png.npz
+│   ├── 00_train-0046.png.npz
+│   ├── 00_train-0047.png.npz
+│   ├── 00_train-0048.png.npz
+│   ├── 00_train-0049.png.npz
+│   ├── 00_train-0050.png.npz
+│   ├── 00_train-0051.png.npz
+│   ├── 00_train-0052.png.npz
+│   ├── 00_train-0053.png.npz
+│   ├── 00_train-0054.png.npz
+│   ├── 00_train-0055.png.npz
+│   ├── 00_train-0056.png.npz
+│   ├── 00_train-0057.png.npz
+│   ├── 00_train-0058.png.npz
+│   ├── 00_train-0059.png.npz
+│   ├── 00_train-0060.png.npz
+│   ├── 00_train-0061.png.npz
+│   ├── 00_train-0062.png.npz
+│   ├── 00_train-0063.png.npz
+│   ├── 00_train-0064.png.npz
+│   ├── 00_train-0065.png.npz
+│   ├── 00_train-0066.png.npz
+│   ├── 00_train-0067.png.npz
+│   ├── 00_train-0068.png.npz
+│   ├── 00_train-0069.png.npz
+│   ├── 00_train-0070.png.npz
+│   ├── 00_train-0071.png.npz
+│   ├── 00_train-0072.png.npz
+│   ├── 00_train-0073.png.npz
+│   ├── 00_train-0074.png.npz
+│   ├── 00_train-0075.png.npz
+│   ├── 00_train-0076.png.npz
+│   ├── 00_train-0077.png.npz
+│   ├── 00_train-0078.png.npz
+│   ├── 00_train-0079.png.npz
+│   ├── 00_train-0080.png.npz
+│   ├── 00_train-0081.png.npz
+│   ├── 00_train-0082.png.npz
+│   ├── 00_train-0083.png.npz
+│   ├── 00_train-0084.png.npz
+│   ├── 00_train-0085.png.npz
+│   ├── 00_train-0086.png.npz
+│   ├── 00_train-0087.png.npz
+│   ├── 00_train-0088.png.npz
+│   ├── 00_train-0089.png.npz
+│   ├── 00_train-0090.png.npz
+│   ├── 00_train-0091.png.npz
+│   ├── 00_train-0092.png.npz
+│   ├── 00_train-0093.png.npz
+│   ├── 00_train-0094.png.npz
+│   ├── 00_train-0095.png.npz
+│   ├── 00_train-0096.png.npz
+│   ├── 00_train-0097.png.npz
+│   ├── 00_train-0098.png.npz
+│   ├── 00_train-0099.png.npz
+│   ├── 00_train-0100.png.npz
+│   ├── 00_train-0101.png.npz
+│   ├── 00_train-0102.png.npz
+│   ├── 00_train-0103.png.npz
+│   ├── 00_train-0104.png.npz
+│   ├── 00_train-0105.png.npz
+│   ├── 00_train-0106.png.npz
+│   ├── 00_train-0107.png.npz
+│   ├── 00_train-0108.png.npz
+│   ├── 00_train-0109.png.npz
+│   ├── 00_train-0110.png.npz
+│   ├── 00_train-0111.png.npz
+│   ├── 00_train-0112.png.npz
+│   ├── 00_train-0113.png.npz
+│   ├── 00_train-0114.png.npz
+│   ├── 00_train-0115.png.npz
+│   ├── 00_train-0116.png.npz
+│   ├── 00_train-0117.png.npz
+│   ├── 00_train-0118.png.npz
+│   ├── 00_train-0119.png.npz
+│   ├── 00_train-0120.png.npz
+│   ├── 00_train-0121.png.npz
+│   ├── 00_train-0122.png.npz
+│   ├── 00_train-0123.png.npz
+│   ├── 00_train-0124.png.npz
+│   ├── 00_train-0125.png.npz
+│   ├── 00_train-0126.png.npz
+│   ├── 00_train-0127.png.npz
+│   ├── 00_train-0128.png.npz
+│   ├── 00_train-0129.png.npz
+│   ├── 00_train-0130.png.npz
+│   ├── 00_train-0131.png.npz
+│   ├── 00_train-0132.png.npz
+│   ├── 00_train-0133.png.npz
+│   ├── 00_train-0134.png.npz
+│   ├── 00_train-0135.png.npz
+│   ├── 00_train-0136.png.npz
+│   ├── 00_train-0137.png.npz
+│   ├── 00_train-0138.png.npz
+│   ├── 00_train-0139.png.npz
+│   ├── 00_train-0140.png.npz
+│   ├── 00_train-0141.png.npz
+│   ├── 00_train-0142.png.npz
+│   ├── 00_train-0143.png.npz
+│   ├── 00_train-0144.png.npz
+│   ├── 00_train-0145.png.npz
+│   ├── 00_train-0146.png.npz
+│   ├── 00_train-0147.png.npz
+│   ├── 00_train-0148.png.npz
+│   ├── 00_train-0149.png.npz
+│   ├── 00_train-0150.png.npz
+│   ├── 00_train-0151.png.npz
+│   ├── 00_train-0152.png.npz
+│   ├── 00_train-0153.png.npz
+│   ├── 00_train-0154.png.npz
+│   ├── 00_train-0155.png.npz
+│   ├── 00_train-0156.png.npz
+│   ├── 00_train-0157.png.npz
+│   ├── 00_train-0158.png.npz
+│   ├── 00_train-0159.png.npz
+│   ├── 00_train-0160.png.npz
+│   ├── 00_train-0161.png.npz
+│   ├── 00_train-0162.png.npz
+│   ├── 00_train-0163.png.npz
+│   ├── 00_train-0164.png.npz
+│   ├── 01_train-0000.png.npz
+│   ├── 01_train-0001.png.npz
+│   ├── 01_train-0002.png.npz
+│   ├── 01_train-0003.png.npz
+│   ├── 01_train-0004.png.npz
+│   ├── 01_train-0005.png.npz
+│   ├── 01_train-0006.png.npz
+│   ├── 01_train-0007.png.npz
+│   ├── 01_train-0008.png.npz
+│   ├── 01_train-0009.png.npz
+│   ├── 01_train-0010.png.npz
+│   ├── 01_train-0011.png.npz
+│   ├── 01_train-0012.png.npz
+│   ├── 01_train-0013.png.npz
+│   ├── 01_train-0014.png.npz
+│   ├── 01_train-0015.png.npz
+│   ├── 01_train-0016.png.npz
+│   ├── 01_train-0017.png.npz
+│   ├── 01_train-0018.png.npz
+│   ├── 01_train-0019.png.npz
+│   ├── 01_train-0020.png.npz
+│   ├── 01_train-0021.png.npz
+│   ├── 01_train-0022.png.npz
+│   ├── 01_train-0023.png.npz
+│   ├── 01_train-0024.png.npz
+│   ├── 01_train-0025.png.npz
+│   ├── 01_train-0026.png.npz
+│   ├── 01_train-0027.png.npz
+│   ├── 01_train-0028.png.npz
+│   ├── 01_train-0029.png.npz
+│   ├── 01_train-0030.png.npz
+│   ├── 01_train-0031.png.npz
+│   ├── 01_train-0032.png.npz
+│   ├── 01_train-0033.png.npz
+│   ├── 01_train-0034.png.npz
+│   ├── 01_train-0035.png.npz
+│   ├── 01_train-0036.png.npz
+│   ├── 01_train-0037.png.npz
+│   ├── 01_train-0038.png.npz
+│   ├── 01_train-0039.png.npz
+│   ├── 01_train-0040.png.npz
+│   ├── 01_train-0041.png.npz
+│   ├── 01_train-0042.png.npz
+│   ├── 01_train-0043.png.npz
+│   ├── 01_train-0044.png.npz
+│   ├── 01_train-0045.png.npz
+│   ├── 01_train-0046.png.npz
+│   ├── 01_train-0047.png.npz
+│   ├── 01_train-0048.png.npz
+│   ├── 01_train-0049.png.npz
+│   ├── 01_train-0050.png.npz
+│   ├── 01_train-0051.png.npz
+│   ├── 01_train-0052.png.npz
+│   ├── 01_train-0053.png.npz
+│   ├── 01_train-0054.png.npz
+│   ├── 01_train-0055.png.npz
+│   ├── 01_train-0056.png.npz
+│   ├── 01_train-0057.png.npz
+│   ├── 01_train-0058.png.npz
+│   ├── 01_train-0059.png.npz
+│   ├── 01_train-0060.png.npz
+│   ├── 01_train-0061.png.npz
+│   ├── 01_train-0062.png.npz
+│   ├── 01_train-0063.png.npz
+│   ├── 01_train-0064.png.npz
+│   ├── 01_train-0065.png.npz
+│   ├── 01_train-0066.png.npz
+│   ├── 01_train-0067.png.npz
+│   ├── 01_train-0068.png.npz
+│   ├── 01_train-0069.png.npz
+│   ├── 01_train-0070.png.npz
+│   ├── 01_train-0071.png.npz
+│   ├── 01_train-0072.png.npz
+│   ├── 01_train-0073.png.npz
+│   ├── 01_train-0074.png.npz
+│   ├── 01_train-0075.png.npz
+│   ├── 01_train-0076.png.npz
+│   ├── 01_train-0077.png.npz
+│   ├── 01_train-0078.png.npz
+│   ├── 01_train-0079.png.npz
+│   ├── 01_train-0080.png.npz
+│   ├── 01_train-0081.png.npz
+│   ├── 01_train-0082.png.npz
+│   ├── 01_train-0083.png.npz
+│   ├── 01_train-0084.png.npz
+│   ├── 01_train-0085.png.npz
+│   ├── 01_train-0086.png.npz
+│   ├── 01_train-0087.png.npz
+│   ├── 01_train-0088.png.npz
+│   ├── 01_train-0089.png.npz
+│   ├── 01_train-0090.png.npz
+│   ├── 01_train-0091.png.npz
+│   ├── 01_train-0092.png.npz
+│   ├── 01_train-0093.png.npz
+│   ├── 01_train-0094.png.npz
+│   ├── 01_train-0095.png.npz
+│   ├── 01_train-0096.png.npz
+│   ├── 01_train-0097.png.npz
+│   ├── 01_train-0098.png.npz
+│   ├── 01_train-0099.png.npz
+│   ├── 01_train-0100.png.npz
+│   ├── 01_train-0101.png.npz
+│   ├── 01_train-0102.png.npz
+│   ├── 01_train-0103.png.npz
+│   ├── 01_train-0104.png.npz
+│   ├── 01_train-0105.png.npz
+│   ├── 01_train-0106.png.npz
+│   ├── 01_train-0107.png.npz
+│   ├── 01_train-0108.png.npz
+│   ├── 01_train-0109.png.npz
+│   ├── 01_train-0110.png.npz
+│   ├── 01_train-0111.png.npz
+│   ├── 01_train-0112.png.npz
+│   ├── 01_train-0113.png.npz
+│   ├── 01_train-0114.png.npz
+│   ├── 01_train-0115.png.npz
+│   ├── 01_train-0116.png.npz
+│   ├── 01_train-0117.png.npz
+│   ├── 01_train-0118.png.npz
+│   ├── 01_train-0119.png.npz
+│   ├── 01_train-0120.png.npz
+│   ├── 01_train-0121.png.npz
+│   ├── 01_train-0122.png.npz
+│   ├── 01_train-0123.png.npz
+│   ├── 01_train-0124.png.npz
+│   ├── 01_train-0125.png.npz
+│   ├── 01_train-0126.png.npz
+│   ├── 01_train-0127.png.npz
+│   ├── 01_train-0128.png.npz
+│   ├── 01_train-0129.png.npz
+│   ├── 01_train-0130.png.npz
+│   ├── 01_train-0131.png.npz
+│   ├── 01_train-0132.png.npz
+│   ├── 01_train-0133.png.npz
+│   ├── 01_train-0134.png.npz
+│   ├── 01_train-0135.png.npz
+│   ├── 01_train-0136.png.npz
+│   ├── 01_train-0137.png.npz
+│   ├── 01_train-0138.png.npz
+│   ├── 01_train-0139.png.npz
+│   ├── 01_train-0140.png.npz
+│   ├── 01_train-0141.png.npz
+│   ├── 01_train-0142.png.npz
+│   ├── 01_train-0143.png.npz
+│   ├── 01_train-0144.png.npz
+│   ├── 01_train-0145.png.npz
+│   ├── 01_train-0146.png.npz
+│   ├── 01_train-0147.png.npz
+│   ├── 01_train-0148.png.npz
+│   ├── 01_train-0149.png.npz
+│   ├── 01_train-0150.png.npz
+│   ├── 01_train-0151.png.npz
+│   ├── 01_train-0152.png.npz
+│   ├── 01_train-0153.png.npz
+│   ├── 01_train-0154.png.npz
+│   ├── 01_train-0155.png.npz
+│   ├── 01_train-0156.png.npz
+│   ├── 01_train-0157.png.npz
+│   ├── 01_train-0158.png.npz
+│   ├── 01_train-0159.png.npz
+│   ├── 01_train-0160.png.npz
+│   ├── 01_train-0161.png.npz
+│   ├── 01_train-0162.png.npz
+│   ├── 01_train-0163.png.npz
+│   ├── 01_train-0164.png.npz
+│   ├── 02_train-0000.png.npz
+│   ├── 02_train-0001.png.npz
+│   ├── 02_train-0002.png.npz
+│   ├── 02_train-0003.png.npz
+│   ├── 02_train-0004.png.npz
+│   ├── 02_train-0005.png.npz
+│   ├── 02_train-0006.png.npz
+│   ├── 02_train-0007.png.npz
+│   ├── 02_train-0008.png.npz
+│   ├── 02_train-0009.png.npz
+│   ├── 02_train-0010.png.npz
+│   ├── 02_train-0011.png.npz
+│   ├── 02_train-0012.png.npz
+│   ├── 02_train-0013.png.npz
+│   ├── 02_train-0014.png.npz
+│   ├── 02_train-0015.png.npz
+│   ├── 02_train-0016.png.npz
+│   ├── 02_train-0017.png.npz
+│   ├── 02_train-0018.png.npz
+│   ├── 02_train-0019.png.npz
+│   ├── 02_train-0020.png.npz
+│   ├── 02_train-0021.png.npz
+│   ├── 02_train-0022.png.npz
+│   ├── 02_train-0023.png.npz
+│   ├── 02_train-0024.png.npz
+│   ├── 02_train-0025.png.npz
+│   ├── 02_train-0026.png.npz
+│   ├── 02_train-0027.png.npz
+│   ├── 02_train-0028.png.npz
+│   ├── 02_train-0029.png.npz
+│   ├── 02_train-0030.png.npz
+│   ├── 02_train-0031.png.npz
+│   ├── 02_train-0032.png.npz
+│   ├── 02_train-0033.png.npz
+│   ├── 02_train-0034.png.npz
+│   ├── 02_train-0035.png.npz
+│   ├── 02_train-0036.png.npz
+│   ├── 02_train-0037.png.npz
+│   ├── 02_train-0038.png.npz
+│   ├── 02_train-0039.png.npz
+│   ├── 02_train-0040.png.npz
+│   ├── 02_train-0041.png.npz
+│   ├── 02_train-0042.png.npz
+│   ├── 02_train-0043.png.npz
+│   ├── 02_train-0044.png.npz
+│   ├── 02_train-0045.png.npz
+│   ├── 02_train-0046.png.npz
+│   ├── 02_train-0047.png.npz
+│   ├── 02_train-0048.png.npz
+│   ├── 02_train-0049.png.npz
+│   ├── 02_train-0050.png.npz
+│   ├── 02_train-0051.png.npz
+│   ├── 02_train-0052.png.npz
+│   ├── 02_train-0053.png.npz
+│   ├── 02_train-0054.png.npz
+│   ├── 02_train-0055.png.npz
+│   ├── 02_train-0056.png.npz
+│   ├── 02_train-0057.png.npz
+│   ├── 02_train-0058.png.npz
+│   ├── 02_train-0059.png.npz
+│   ├── 02_train-0060.png.npz
+│   ├── 02_train-0061.png.npz
+│   ├── 02_train-0062.png.npz
+│   ├── 02_train-0063.png.npz
+│   ├── 02_train-0064.png.npz
+│   ├── 02_train-0065.png.npz
+│   ├── 02_train-0066.png.npz
+│   ├── 02_train-0067.png.npz
+│   ├── 02_train-0068.png.npz
+│   ├── 02_train-0069.png.npz
+│   ├── 02_train-0070.png.npz
+│   ├── 02_train-0071.png.npz
+│   ├── 02_train-0072.png.npz
+│   ├── 02_train-0073.png.npz
+│   ├── 02_train-0074.png.npz
+│   ├── 02_train-0075.png.npz
+│   ├── 02_train-0076.png.npz
+│   ├── 02_train-0077.png.npz
+│   ├── 02_train-0078.png.npz
+│   ├── 02_train-0079.png.npz
+│   ├── 02_train-0080.png.npz
+│   ├── 02_train-0081.png.npz
+│   ├── 02_train-0082.png.npz
+│   ├── 02_train-0083.png.npz
+│   ├── 02_train-0084.png.npz
+│   ├── 02_train-0085.png.npz
+│   ├── 02_train-0086.png.npz
+│   ├── 02_train-0087.png.npz
+│   ├── 02_train-0088.png.npz
+│   ├── 02_train-0089.png.npz
+│   ├── 02_train-0090.png.npz
+│   ├── 02_train-0091.png.npz
+│   ├── 02_train-0092.png.npz
+│   ├── 02_train-0093.png.npz
+│   ├── 02_train-0094.png.npz
+│   ├── 02_train-0095.png.npz
+│   ├── 02_train-0096.png.npz
+│   ├── 02_train-0097.png.npz
+│   ├── 02_train-0098.png.npz
+│   ├── 02_train-0099.png.npz
+│   ├── 02_train-0100.png.npz
+│   ├── 02_train-0101.png.npz
+│   ├── 02_train-0102.png.npz
+│   ├── 02_train-0103.png.npz
+│   ├── 02_train-0104.png.npz
+│   ├── 02_train-0105.png.npz
+│   ├── 02_train-0106.png.npz
+│   ├── 02_train-0107.png.npz
+│   ├── 02_train-0108.png.npz
+│   ├── 02_train-0109.png.npz
+│   ├── 02_train-0110.png.npz
+│   ├── 02_train-0111.png.npz
+│   ├── 02_train-0112.png.npz
+│   ├── 02_train-0113.png.npz
+│   ├── 02_train-0114.png.npz
+│   ├── 02_train-0115.png.npz
+│   ├── 02_train-0116.png.npz
+│   ├── 02_train-0117.png.npz
+│   ├── 02_train-0118.png.npz
+│   ├── 02_train-0119.png.npz
+│   ├── 02_train-0120.png.npz
+│   ├── 02_train-0121.png.npz
+│   ├── 02_train-0122.png.npz
+│   ├── 02_train-0123.png.npz
+│   ├── 02_train-0124.png.npz
+│   ├── 02_train-0125.png.npz
+│   ├── 02_train-0126.png.npz
+│   ├── 02_train-0127.png.npz
+│   ├── 02_train-0128.png.npz
+│   ├── 02_train-0129.png.npz
+│   ├── 02_train-0130.png.npz
+│   ├── 02_train-0131.png.npz
+│   ├── 02_train-0132.png.npz
+│   ├── 02_train-0133.png.npz
+│   ├── 02_train-0134.png.npz
+│   ├── 02_train-0135.png.npz
+│   ├── 02_train-0136.png.npz
+│   ├── 02_train-0137.png.npz
+│   ├── 02_train-0138.png.npz
+│   ├── 02_train-0139.png.npz
+│   ├── 02_train-0140.png.npz
+│   ├── 02_train-0141.png.npz
+│   ├── 02_train-0142.png.npz
+│   ├── 02_train-0143.png.npz
+│   ├── 02_train-0144.png.npz
+│   ├── 02_train-0145.png.npz
+│   ├── 02_train-0146.png.npz
+│   ├── 02_train-0147.png.npz
+│   ├── 02_train-0148.png.npz
+│   ├── 02_train-0149.png.npz
+│   ├── 02_train-0150.png.npz
+│   ├── 02_train-0151.png.npz
+│   ├── 02_train-0152.png.npz
+│   ├── 02_train-0153.png.npz
+│   ├── 02_train-0154.png.npz
+│   ├── 02_train-0155.png.npz
+│   ├── 02_train-0156.png.npz
+│   ├── 02_train-0157.png.npz
+│   ├── 02_train-0158.png.npz
+│   ├── 02_train-0159.png.npz
+│   ├── 02_train-0160.png.npz
+│   ├── 02_train-0161.png.npz
+│   ├── 02_train-0162.png.npz
+│   ├── 02_train-0163.png.npz
+│   ├── 02_train-0164.png.npz
+│   ├── 03_train-0000.png.npz
+│   ├── 03_train-0001.png.npz
+│   ├── 03_train-0002.png.npz
+│   ├── 03_train-0003.png.npz
+│   ├── 03_train-0004.png.npz
+│   ├── 03_train-0005.png.npz
+│   ├── 03_train-0006.png.npz
+│   ├── 03_train-0007.png.npz
+│   ├── 03_train-0008.png.npz
+│   ├── 03_train-0009.png.npz
+│   ├── 03_train-0010.png.npz
+│   ├── 03_train-0011.png.npz
+│   ├── 03_train-0012.png.npz
+│   ├── 03_train-0013.png.npz
+│   ├── 03_train-0014.png.npz
+│   ├── 03_train-0015.png.npz
+│   ├── 03_train-0016.png.npz
+│   ├── 03_train-0017.png.npz
+│   ├── 03_train-0018.png.npz
+│   ├── 03_train-0019.png.npz
+│   ├── 03_train-0020.png.npz
+│   ├── 03_train-0021.png.npz
+│   ├── 03_train-0022.png.npz
+│   ├── 03_train-0023.png.npz
+│   ├── 03_train-0024.png.npz
+│   ├── 03_train-0025.png.npz
+│   ├── 03_train-0026.png.npz
+│   ├── 03_train-0027.png.npz
+│   ├── 03_train-0028.png.npz
+│   ├── 03_train-0029.png.npz
+│   ├── 03_train-0030.png.npz
+│   ├── 03_train-0031.png.npz
+│   ├── 03_train-0032.png.npz
+│   ├── 03_train-0033.png.npz
+│   ├── 03_train-0034.png.npz
+│   ├── 03_train-0035.png.npz
+│   ├── 03_train-0036.png.npz
+│   ├── 03_train-0037.png.npz
+│   ├── 03_train-0038.png.npz
+│   ├── 03_train-0039.png.npz
+│   ├── 03_train-0040.png.npz
+│   ├── 03_train-0041.png.npz
+│   ├── 03_train-0042.png.npz
+│   ├── 03_train-0043.png.npz
+│   ├── 03_train-0044.png.npz
+│   ├── 03_train-0045.png.npz
+│   ├── 03_train-0046.png.npz
+│   ├── 03_train-0047.png.npz
+│   ├── 03_train-0048.png.npz
+│   ├── 03_train-0049.png.npz
+│   ├── 03_train-0050.png.npz
+│   ├── 03_train-0051.png.npz
+│   ├── 03_train-0052.png.npz
+│   ├── 03_train-0053.png.npz
+│   ├── 03_train-0054.png.npz
+│   ├── 03_train-0055.png.npz
+│   ├── 03_train-0056.png.npz
+│   ├── 03_train-0057.png.npz
+│   ├── 03_train-0058.png.npz
+│   ├── 03_train-0059.png.npz
+│   ├── 03_train-0060.png.npz
+│   ├── 03_train-0061.png.npz
+│   ├── 03_train-0062.png.npz
+│   ├── 03_train-0063.png.npz
+│   ├── 03_train-0064.png.npz
+│   ├── 03_train-0065.png.npz
+│   ├── 03_train-0066.png.npz
+│   ├── 03_train-0067.png.npz
+│   ├── 03_train-0068.png.npz
+│   ├── 03_train-0069.png.npz
+│   ├── 03_train-0070.png.npz
+│   ├── 03_train-0071.png.npz
+│   ├── 03_train-0072.png.npz
+│   ├── 03_train-0073.png.npz
+│   ├── 03_train-0074.png.npz
+│   ├── 03_train-0075.png.npz
+│   ├── 03_train-0076.png.npz
+│   ├── 03_train-0077.png.npz
+│   ├── 03_train-0078.png.npz
+│   ├── 03_train-0079.png.npz
+│   ├── 03_train-0080.png.npz
+│   ├── 03_train-0081.png.npz
+│   ├── 03_train-0082.png.npz
+│   ├── 03_train-0083.png.npz
+│   ├── 03_train-0084.png.npz
+│   ├── 03_train-0085.png.npz
+│   ├── 03_train-0086.png.npz
+│   ├── 03_train-0087.png.npz
+│   ├── 03_train-0088.png.npz
+│   ├── 03_train-0089.png.npz
+│   ├── 03_train-0090.png.npz
+│   ├── 03_train-0091.png.npz
+│   ├── 03_train-0092.png.npz
+│   ├── 03_train-0093.png.npz
+│   ├── 03_train-0094.png.npz
+│   ├── 03_train-0095.png.npz
+│   ├── 03_train-0096.png.npz
+│   ├── 03_train-0097.png.npz
+│   ├── 03_train-0098.png.npz
+│   ├── 03_train-0099.png.npz
+│   ├── 03_train-0100.png.npz
+│   ├── 03_train-0101.png.npz
+│   ├── 03_train-0102.png.npz
+│   ├── 03_train-0103.png.npz
+│   ├── 03_train-0104.png.npz
+│   ├── 03_train-0105.png.npz
+│   ├── 03_train-0106.png.npz
+│   ├── 03_train-0107.png.npz
+│   ├── 03_train-0108.png.npz
+│   ├── 03_train-0109.png.npz
+│   ├── 03_train-0110.png.npz
+│   ├── 03_train-0111.png.npz
+│   ├── 03_train-0112.png.npz
+│   ├── 03_train-0113.png.npz
+│   ├── 03_train-0114.png.npz
+│   ├── 03_train-0115.png.npz
+│   ├── 03_train-0116.png.npz
+│   ├── 03_train-0117.png.npz
+│   ├── 03_train-0118.png.npz
+│   ├── 03_train-0119.png.npz
+│   ├── 03_train-0120.png.npz
+│   ├── 03_train-0121.png.npz
+│   ├── 03_train-0122.png.npz
+│   ├── 03_train-0123.png.npz
+│   ├── 03_train-0124.png.npz
+│   ├── 03_train-0125.png.npz
+│   ├── 03_train-0126.png.npz
+│   ├── 03_train-0127.png.npz
+│   ├── 03_train-0128.png.npz
+│   ├── 03_train-0129.png.npz
+│   ├── 03_train-0130.png.npz
+│   ├── 03_train-0131.png.npz
+│   ├── 03_train-0132.png.npz
+│   ├── 03_train-0133.png.npz
+│   ├── 03_train-0134.png.npz
+│   ├── 03_train-0135.png.npz
+│   ├── 03_train-0136.png.npz
+│   ├── 03_train-0137.png.npz
+│   ├── 03_train-0138.png.npz
+│   ├── 03_train-0139.png.npz
+│   ├── 03_train-0140.png.npz
+│   ├── 03_train-0141.png.npz
+│   ├── 03_train-0142.png.npz
+│   ├── 03_train-0143.png.npz
+│   ├── 03_train-0144.png.npz
+│   ├── 03_train-0145.png.npz
+│   ├── 03_train-0146.png.npz
+│   ├── 03_train-0147.png.npz
+│   ├── 03_train-0148.png.npz
+│   ├── 03_train-0149.png.npz
+│   ├── 03_train-0150.png.npz
+│   ├── 03_train-0151.png.npz
+│   ├── 03_train-0152.png.npz
+│   ├── 03_train-0153.png.npz
+│   ├── 03_train-0154.png.npz
+│   ├── 03_train-0155.png.npz
+│   ├── 03_train-0156.png.npz
+│   ├── 03_train-0157.png.npz
+│   ├── 03_train-0158.png.npz
+│   ├── 03_train-0159.png.npz
+│   ├── 03_train-0160.png.npz
+│   ├── 03_train-0161.png.npz
+│   ├── 03_train-0162.png.npz
+│   ├── 03_train-0163.png.npz
+│   └── 03_train-0164.png.npz
+├── test_data
+│   ├── images
+│   │   ├── test-0000.png
+│   │   ├── test-0001.png
+│   │   ├── test-0002.png
+│   │   ├── test-0003.png
+│   │   ├── test-0004.png
+│   │   ├── test-0005.png
+│   │   ├── test-0006.png
+│   │   ├── test-0007.png
+│   │   ├── test-0008.png
+│   │   ├── test-0009.png
+│   │   ├── test-0010.png
+│   │   ├── test-0011.png
+│   │   ├── test-0012.png
+│   │   ├── test-0013.png
+│   │   ├── test-0014.png
+│   │   ├── test-0015.png
+│   │   ├── test-0016.png
+│   │   ├── test-0017.png
+│   │   ├── test-0018.png
+│   │   ├── test-0019.png
+│   │   ├── test-0020.png
+│   │   ├── test-0021.png
+│   │   ├── test-0022.png
+│   │   ├── test-0023.png
+│   │   ├── test-0024.png
+│   │   ├── test-0025.png
+│   │   ├── test-0026.png
+│   │   ├── test-0027.png
+│   │   ├── test-0028.png
+│   │   ├── test-0029.png
+│   │   ├── test-0030.png
+│   │   ├── test-0031.png
+│   │   ├── test-0032.png
+│   │   ├── test-0033.png
+│   │   ├── test-0034.png
+│   │   ├── test-0035.png
+│   │   ├── test-0036.png
+│   │   ├── test-0037.png
+│   │   ├── test-0038.png
+│   │   ├── test-0039.png
+│   │   ├── test-0040.png
+│   │   ├── test-0041.png
+│   │   ├── test-0042.png
+│   │   ├── test-0043.png
+│   │   ├── test-0044.png
+│   │   ├── test-0045.png
+│   │   ├── test-0046.png
+│   │   ├── test-0047.png
+│   │   ├── test-0048.png
+│   │   ├── test-0049.png
+│   │   ├── test-0050.png
+│   │   ├── test-0051.png
+│   │   ├── test-0052.png
+│   │   ├── test-0053.png
+│   │   ├── test-0054.png
+│   │   ├── test-0055.png
+│   │   ├── test-0056.png
+│   │   ├── test-0057.png
+│   │   ├── test-0058.png
+│   │   ├── test-0059.png
+│   │   ├── test-0060.png
+│   │   ├── test-0061.png
+│   │   ├── test-0062.png
+│   │   ├── test-0063.png
+│   │   ├── test-0064.png
+│   │   ├── test-0065.png
+│   │   ├── test-0066.png
+│   │   ├── test-0067.png
+│   │   ├── test-0068.png
+│   │   ├── test-0069.png
+│   │   ├── test-0070.png
+│   │   ├── test-0071.png
+│   │   ├── test-0072.png
+│   │   ├── test-0073.png
+│   │   ├── test-0074.png
+│   │   ├── test-0075.png
+│   │   ├── test-0076.png
+│   │   ├── test-0077.png
+│   │   ├── test-0078.png
+│   │   ├── test-0079.png
+│   │   ├── test-0080.png
+│   │   ├── test-0081.png
+│   │   ├── test-0082.png
+│   │   ├── test-0083.png
+│   │   ├── test-0084.png
+│   │   ├── test-0085.png
+│   │   ├── test-0086.png
+│   │   ├── test-0087.png
+│   │   ├── test-0088.png
+│   │   ├── test-0089.png
+│   │   ├── test-0090.png
+│   │   ├── test-0091.png
+│   │   ├── test-0092.png
+│   │   ├── test-0093.png
+│   │   ├── test-0094.png
+│   │   ├── test-0095.png
+│   │   ├── test-0096.png
+│   │   ├── test-0097.png
+│   │   ├── test-0098.png
+│   │   ├── test-0099.png
+│   │   ├── test-0100.png
+│   │   ├── test-0101.png
+│   │   ├── test-0102.png
+│   │   ├── test-0103.png
+│   │   ├── test-0104.png
+│   │   ├── test-0105.png
+│   │   ├── test-0106.png
+│   │   ├── test-0107.png
+│   │   ├── test-0108.png
+│   │   ├── test-0109.png
+│   │   ├── test-0110.png
+│   │   ├── test-0111.png
+│   │   ├── test-0112.png
+│   │   ├── test-0113.png
+│   │   ├── test-0114.png
+│   │   ├── test-0115.png
+│   │   ├── test-0116.png
+│   │   ├── test-0117.png
+│   │   ├── test-0118.png
+│   │   ├── test-0119.png
+│   │   ├── test-0120.png
+│   │   ├── test-0121.png
+│   │   ├── test-0122.png
+│   │   ├── test-0123.png
+│   │   ├── test-0124.png
+│   │   ├── test-0125.png
+│   │   ├── test-0126.png
+│   │   ├── test-0127.png
+│   │   ├── test-0128.png
+│   │   ├── test-0129.png
+│   │   ├── test-0130.png
+│   │   ├── test-0131.png
+│   │   ├── test-0132.png
+│   │   ├── test-0133.png
+│   │   ├── test-0134.png
+│   │   ├── test-0135.png
+│   │   ├── test-0136.png
+│   │   ├── test-0137.png
+│   │   ├── test-0138.png
+│   │   ├── test-0139.png
+│   │   ├── test-0140.png
+│   │   ├── test-0141.png
+│   │   ├── test-0142.png
+│   │   ├── test-0143.png
+│   │   ├── test-0144.png
+│   │   ├── test-0145.png
+│   │   ├── test-0146.png
+│   │   ├── test-0147.png
+│   │   ├── test-0148.png
+│   │   ├── test-0149.png
+│   │   ├── test-0150.png
+│   │   ├── test-0151.png
+│   │   ├── test-0152.png
+│   │   ├── test-0153.png
+│   │   ├── test-0154.png
+│   │   ├── test-0155.png
+│   │   ├── test-0156.png
+│   │   ├── test-0157.png
+│   │   ├── test-0158.png
+│   │   ├── test-0159.png
+│   │   ├── test-0160.png
+│   │   ├── test-0161.png
+│   │   ├── test-0162.png
+│   │   ├── test-0163.png
+│   │   └── test-0164.png
+│   └── masks
+│       ├── test-0000.png
+│       ├── test-0001.png
+│       ├── test-0002.png
+│       ├── test-0003.png
+│       ├── test-0004.png
+│       ├── test-0005.png
+│       ├── test-0006.png
+│       ├── test-0007.png
+│       ├── test-0008.png
+│       ├── test-0009.png
+│       ├── test-0010.png
+│       ├── test-0011.png
+│       ├── test-0012.png
+│       ├── test-0013.png
+│       ├── test-0014.png
+│       ├── test-0015.png
+│       ├── test-0016.png
+│       ├── test-0017.png
+│       ├── test-0018.png
+│       ├── test-0019.png
+│       ├── test-0020.png
+│       ├── test-0021.png
+│       ├── test-0022.png
+│       ├── test-0023.png
+│       ├── test-0024.png
+│       ├── test-0025.png
+│       ├── test-0026.png
+│       ├── test-0027.png
+│       ├── test-0028.png
+│       ├── test-0029.png
+│       ├── test-0030.png
+│       ├── test-0031.png
+│       ├── test-0032.png
+│       ├── test-0033.png
+│       ├── test-0034.png
+│       ├── test-0035.png
+│       ├── test-0036.png
+│       ├── test-0037.png
+│       ├── test-0038.png
+│       ├── test-0039.png
+│       ├── test-0040.png
+│       ├── test-0041.png
+│       ├── test-0042.png
+│       ├── test-0043.png
+│       ├── test-0044.png
+│       ├── test-0045.png
+│       ├── test-0046.png
+│       ├── test-0047.png
+│       ├── test-0048.png
+│       ├── test-0049.png
+│       ├── test-0050.png
+│       ├── test-0051.png
+│       ├── test-0052.png
+│       ├── test-0053.png
+│       ├── test-0054.png
+│       ├── test-0055.png
+│       ├── test-0056.png
+│       ├── test-0057.png
+│       ├── test-0058.png
+│       ├── test-0059.png
+│       ├── test-0060.png
+│       ├── test-0061.png
+│       ├── test-0062.png
+│       ├── test-0063.png
+│       ├── test-0064.png
+│       ├── test-0065.png
+│       ├── test-0066.png
+│       ├── test-0067.png
+│       ├── test-0068.png
+│       ├── test-0069.png
+│       ├── test-0070.png
+│       ├── test-0071.png
+│       ├── test-0072.png
+│       ├── test-0073.png
+│       ├── test-0074.png
+│       ├── test-0075.png
+│       ├── test-0076.png
+│       ├── test-0077.png
+│       ├── test-0078.png
+│       ├── test-0079.png
+│       ├── test-0080.png
+│       ├── test-0081.png
+│       ├── test-0082.png
+│       ├── test-0083.png
+│       ├── test-0084.png
+│       ├── test-0085.png
+│       ├── test-0086.png
+│       ├── test-0087.png
+│       ├── test-0088.png
+│       ├── test-0089.png
+│       ├── test-0090.png
+│       ├── test-0091.png
+│       ├── test-0092.png
+│       ├── test-0093.png
+│       ├── test-0094.png
+│       ├── test-0095.png
+│       ├── test-0096.png
+│       ├── test-0097.png
+│       ├── test-0098.png
+│       ├── test-0099.png
+│       ├── test-0100.png
+│       ├── test-0101.png
+│       ├── test-0102.png
+│       ├── test-0103.png
+│       ├── test-0104.png
+│       ├── test-0105.png
+│       ├── test-0106.png
+│       ├── test-0107.png
+│       ├── test-0108.png
+│       ├── test-0109.png
+│       ├── test-0110.png
+│       ├── test-0111.png
+│       ├── test-0112.png
+│       ├── test-0113.png
+│       ├── test-0114.png
+│       ├── test-0115.png
+│       ├── test-0116.png
+│       ├── test-0117.png
+│       ├── test-0118.png
+│       ├── test-0119.png
+│       ├── test-0120.png
+│       ├── test-0121.png
+│       ├── test-0122.png
+│       ├── test-0123.png
+│       ├── test-0124.png
+│       ├── test-0125.png
+│       ├── test-0126.png
+│       ├── test-0127.png
+│       ├── test-0128.png
+│       ├── test-0129.png
+│       ├── test-0130.png
+│       ├── test-0131.png
+│       ├── test-0132.png
+│       ├── test-0133.png
+│       ├── test-0134.png
+│       ├── test-0135.png
+│       ├── test-0136.png
+│       ├── test-0137.png
+│       ├── test-0138.png
+│       ├── test-0139.png
+│       ├── test-0140.png
+│       ├── test-0141.png
+│       ├── test-0142.png
+│       ├── test-0143.png
+│       ├── test-0144.png
+│       ├── test-0145.png
+│       ├── test-0146.png
+│       ├── test-0147.png
+│       ├── test-0148.png
+│       ├── test-0149.png
+│       ├── test-0150.png
+│       ├── test-0151.png
+│       ├── test-0152.png
+│       ├── test-0153.png
+│       ├── test-0154.png
+│       ├── test-0155.png
+│       ├── test-0156.png
+│       ├── test-0157.png
+│       ├── test-0158.png
+│       ├── test-0159.png
+│       ├── test-0160.png
+│       ├── test-0161.png
+│       ├── test-0162.png
+│       ├── test-0163.png
+│       └── test-0164.png
+└── train_data
+    ├── images
+    │   ├── train-0000.png
+    │   ├── train-0001.png
+    │   ├── train-0002.png
+    │   ├── train-0003.png
+    │   ├── train-0004.png
+    │   ├── train-0005.png
+    │   ├── train-0006.png
+    │   ├── train-0007.png
+    │   ├── train-0008.png
+    │   ├── train-0009.png
+    │   ├── train-0010.png
+    │   ├── train-0011.png
+    │   ├── train-0012.png
+    │   ├── train-0013.png
+    │   ├── train-0014.png
+    │   ├── train-0015.png
+    │   ├── train-0016.png
+    │   ├── train-0017.png
+    │   ├── train-0018.png
+    │   ├── train-0019.png
+    │   ├── train-0020.png
+    │   ├── train-0021.png
+    │   ├── train-0022.png
+    │   ├── train-0023.png
+    │   ├── train-0024.png
+    │   ├── train-0025.png
+    │   ├── train-0026.png
+    │   ├── train-0027.png
+    │   ├── train-0028.png
+    │   ├── train-0029.png
+    │   ├── train-0030.png
+    │   ├── train-0031.png
+    │   ├── train-0032.png
+    │   ├── train-0033.png
+    │   ├── train-0034.png
+    │   ├── train-0035.png
+    │   ├── train-0036.png
+    │   ├── train-0037.png
+    │   ├── train-0038.png
+    │   ├── train-0039.png
+    │   ├── train-0040.png
+    │   ├── train-0041.png
+    │   ├── train-0042.png
+    │   ├── train-0043.png
+    │   ├── train-0044.png
+    │   ├── train-0045.png
+    │   ├── train-0046.png
+    │   ├── train-0047.png
+    │   ├── train-0048.png
+    │   ├── train-0049.png
+    │   ├── train-0050.png
+    │   ├── train-0051.png
+    │   ├── train-0052.png
+    │   ├── train-0053.png
+    │   ├── train-0054.png
+    │   ├── train-0055.png
+    │   ├── train-0056.png
+    │   ├── train-0057.png
+    │   ├── train-0058.png
+    │   ├── train-0059.png
+    │   ├── train-0060.png
+    │   ├── train-0061.png
+    │   ├── train-0062.png
+    │   ├── train-0063.png
+    │   ├── train-0064.png
+    │   ├── train-0065.png
+    │   ├── train-0066.png
+    │   ├── train-0067.png
+    │   ├── train-0068.png
+    │   ├── train-0069.png
+    │   ├── train-0070.png
+    │   ├── train-0071.png
+    │   ├── train-0072.png
+    │   ├── train-0073.png
+    │   ├── train-0074.png
+    │   ├── train-0075.png
+    │   ├── train-0076.png
+    │   ├── train-0077.png
+    │   ├── train-0078.png
+    │   ├── train-0079.png
+    │   ├── train-0080.png
+    │   ├── train-0081.png
+    │   ├── train-0082.png
+    │   ├── train-0083.png
+    │   ├── train-0084.png
+    │   ├── train-0085.png
+    │   ├── train-0086.png
+    │   ├── train-0087.png
+    │   ├── train-0088.png
+    │   ├── train-0089.png
+    │   ├── train-0090.png
+    │   ├── train-0091.png
+    │   ├── train-0092.png
+    │   ├── train-0093.png
+    │   ├── train-0094.png
+    │   ├── train-0095.png
+    │   ├── train-0096.png
+    │   ├── train-0097.png
+    │   ├── train-0098.png
+    │   ├── train-0099.png
+    │   ├── train-0100.png
+    │   ├── train-0101.png
+    │   ├── train-0102.png
+    │   ├── train-0103.png
+    │   ├── train-0104.png
+    │   ├── train-0105.png
+    │   ├── train-0106.png
+    │   ├── train-0107.png
+    │   ├── train-0108.png
+    │   ├── train-0109.png
+    │   ├── train-0110.png
+    │   ├── train-0111.png
+    │   ├── train-0112.png
+    │   ├── train-0113.png
+    │   ├── train-0114.png
+    │   ├── train-0115.png
+    │   ├── train-0116.png
+    │   ├── train-0117.png
+    │   ├── train-0118.png
+    │   ├── train-0119.png
+    │   ├── train-0120.png
+    │   ├── train-0121.png
+    │   ├── train-0122.png
+    │   ├── train-0123.png
+    │   ├── train-0124.png
+    │   ├── train-0125.png
+    │   ├── train-0126.png
+    │   ├── train-0127.png
+    │   ├── train-0128.png
+    │   ├── train-0129.png
+    │   ├── train-0130.png
+    │   ├── train-0131.png
+    │   ├── train-0132.png
+    │   ├── train-0133.png
+    │   ├── train-0134.png
+    │   ├── train-0135.png
+    │   ├── train-0136.png
+    │   ├── train-0137.png
+    │   ├── train-0138.png
+    │   ├── train-0139.png
+    │   ├── train-0140.png
+    │   ├── train-0141.png
+    │   ├── train-0142.png
+    │   ├── train-0143.png
+    │   ├── train-0144.png
+    │   ├── train-0145.png
+    │   ├── train-0146.png
+    │   ├── train-0147.png
+    │   ├── train-0148.png
+    │   ├── train-0149.png
+    │   ├── train-0150.png
+    │   ├── train-0151.png
+    │   ├── train-0152.png
+    │   ├── train-0153.png
+    │   ├── train-0154.png
+    │   ├── train-0155.png
+    │   ├── train-0156.png
+    │   ├── train-0157.png
+    │   ├── train-0158.png
+    │   ├── train-0159.png
+    │   ├── train-0160.png
+    │   ├── train-0161.png
+    │   ├── train-0162.png
+    │   ├── train-0163.png
+    │   └── train-0164.png
+    └── masks
+        ├── train-0000.png
+        ├── train-0001.png
+        ├── train-0002.png
+        ├── train-0003.png
+        ├── train-0004.png
+        ├── train-0005.png
+        ├── train-0006.png
+        ├── train-0007.png
+        ├── train-0008.png
+        ├── train-0009.png
+        ├── train-0010.png
+        ├── train-0011.png
+        ├── train-0012.png
+        ├── train-0013.png
+        ├── train-0014.png
+        ├── train-0015.png
+        ├── train-0016.png
+        ├── train-0017.png
+        ├── train-0018.png
+        ├── train-0019.png
+        ├── train-0020.png
+        ├── train-0021.png
+        ├── train-0022.png
+        ├── train-0023.png
+        ├── train-0024.png
+        ├── train-0025.png
+        ├── train-0026.png
+        ├── train-0027.png
+        ├── train-0028.png
+        ├── train-0029.png
+        ├── train-0030.png
+        ├── train-0031.png
+        ├── train-0032.png
+        ├── train-0033.png
+        ├── train-0034.png
+        ├── train-0035.png
+        ├── train-0036.png
+        ├── train-0037.png
+        ├── train-0038.png
+        ├── train-0039.png
+        ├── train-0040.png
+        ├── train-0041.png
+        ├── train-0042.png
+        ├── train-0043.png
+        ├── train-0044.png
+        ├── train-0045.png
+        ├── train-0046.png
+        ├── train-0047.png
+        ├── train-0048.png
+        ├── train-0049.png
+        ├── train-0050.png
+        ├── train-0051.png
+        ├── train-0052.png
+        ├── train-0053.png
+        ├── train-0054.png
+        ├── train-0055.png
+        ├── train-0056.png
+        ├── train-0057.png
+        ├── train-0058.png
+        ├── train-0059.png
+        ├── train-0060.png
+        ├── train-0061.png
+        ├── train-0062.png
+        ├── train-0063.png
+        ├── train-0064.png
+        ├── train-0065.png
+        ├── train-0066.png
+        ├── train-0067.png
+        ├── train-0068.png
+        ├── train-0069.png
+        ├── train-0070.png
+        ├── train-0071.png
+        ├── train-0072.png
+        ├── train-0073.png
+        ├── train-0074.png
+        ├── train-0075.png
+        ├── train-0076.png
+        ├── train-0077.png
+        ├── train-0078.png
+        ├── train-0079.png
+        ├── train-0080.png
+        ├── train-0081.png
+        ├── train-0082.png
+        ├── train-0083.png
+        ├── train-0084.png
+        ├── train-0085.png
+        ├── train-0086.png
+        ├── train-0087.png
+        ├── train-0088.png
+        ├── train-0089.png
+        ├── train-0090.png
+        ├── train-0091.png
+        ├── train-0092.png
+        ├── train-0093.png
+        ├── train-0094.png
+        ├── train-0095.png
+        ├── train-0096.png
+        ├── train-0097.png
+        ├── train-0098.png
+        ├── train-0099.png
+        ├── train-0100.png
+        ├── train-0101.png
+        ├── train-0102.png
+        ├── train-0103.png
+        ├── train-0104.png
+        ├── train-0105.png
+        ├── train-0106.png
+        ├── train-0107.png
+        ├── train-0108.png
+        ├── train-0109.png
+        ├── train-0110.png
+        ├── train-0111.png
+        ├── train-0112.png
+        ├── train-0113.png
+        ├── train-0114.png
+        ├── train-0115.png
+        ├── train-0116.png
+        ├── train-0117.png
+        ├── train-0118.png
+        ├── train-0119.png
+        ├── train-0120.png
+        ├── train-0121.png
+        ├── train-0122.png
+        ├── train-0123.png
+        ├── train-0124.png
+        ├── train-0125.png
+        ├── train-0126.png
+        ├── train-0127.png
+        ├── train-0128.png
+        ├── train-0129.png
+        ├── train-0130.png
+        ├── train-0131.png
+        ├── train-0132.png
+        ├── train-0133.png
+        ├── train-0134.png
+        ├── train-0135.png
+        ├── train-0136.png
+        ├── train-0137.png
+        ├── train-0138.png
+        ├── train-0139.png
+        ├── train-0140.png
+        ├── train-0141.png
+        ├── train-0142.png
+        ├── train-0143.png
+        ├── train-0144.png
+        ├── train-0145.png
+        ├── train-0146.png
+        ├── train-0147.png
+        ├── train-0148.png
+        ├── train-0149.png
+        ├── train-0150.png
+        ├── train-0151.png
+        ├── train-0152.png
+        ├── train-0153.png
+        ├── train-0154.png
+        ├── train-0155.png
+        ├── train-0156.png
+        ├── train-0157.png
+        ├── train-0158.png
+        ├── train-0159.png
+        ├── train-0160.png
+        ├── train-0161.png
+        ├── train-0162.png
+        ├── train-0163.png
+        └── train-0164.png
+
+11 directories, 2644 files

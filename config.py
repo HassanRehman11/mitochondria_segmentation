@@ -1,0 +1,9 @@
+BACKBONE = 'efficientnetb3'
+learning_rate = 0.001
+batch_size = 4
+channel = 1
+input_images_size = 512
+target_shape = [input_images_size, input_images_size]
+n_classes = 1
+activation = "sigmoid"
+epochs = 100 
