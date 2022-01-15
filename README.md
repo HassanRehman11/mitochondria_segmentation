@@ -1,6 +1,6 @@
 # Mitochondria Segmentation
 
-Semester project based on mitochondria segmentation from the electron microscopy image dataset
+Segmentation based approach for mitochondria segmentation from the electron microscopy image dataset
 
 ## Conversion of Data Set
 * Open the file DataConversion_Prepration.ipynb
