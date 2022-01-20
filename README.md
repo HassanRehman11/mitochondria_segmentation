@@ -1,6 +1,7 @@
 # Mitochondria Segmentation
 
-Segmentation based approach for mitochondria segmentation from the electron microscopy image dataset
+Segmentation based approach for mitochondria segmentation from the electron microscopy image dataset.
+Dataset can be downloaded from following source: https://www.epfl.ch/labs/cvlab/data/data-em/
 
 ## Conversion of Data Set
 * Open the file DataConversion_Prepration.ipynb
